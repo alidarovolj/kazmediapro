@@ -27,7 +27,12 @@
           <h1 class="uppercase text-2xl lg:text-4xl font-bold text-white mb-9">
             {{ $t("mainPage.hero.headText") }}
           </h1>
-          <Button :text="$t('general.callRequest')" />
+          <a
+            style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
+            class="px-7 py-3 text-base font-bold bg-secondaryColor text-white cursor-pointer w-max"
+            href="#message"
+            >{{ $t("general.callRequest") }}</a
+          >
         </div>
         <div class="flex items-end h-full w-full">
           <img

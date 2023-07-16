@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="message">
     <form
       action=""
       @submit.prevent="sendForm"
@@ -61,7 +61,7 @@
             'border border-red-500': v$.form.email.$errors.length,
           }"
           v-model="form.email"
-          :placeholder="$t('mainPage.contacts.form.email.placeholder')"
+          placeholder="i.ivanov@gmail.com"
           type="text"
         />
         <p
@@ -121,6 +121,7 @@ import { useVuelidate } from "@vuelidate/core";
 import { required, email } from "@vuelidate/validators";
 
 import Loader from "@/components/General/Loader.vue";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
   name: "SendMessage",
@@ -152,8 +153,19 @@ export default {
       },
     };
   },
+  computed: {
+    ...mapGetters(["getCreatedMessage"]),
+  },
   methods: {
-    sendForm() {
+    ...mapActions(["sendMessage"]),
+    clearForm() {
+      this.form.direction = null;
+      this.form.name = null;
+      this.form.email = null;
+      this.form.phone = null;
+      this.form.note = null;
+    },
+    async sendForm() {
       this.loading = true;
       this.v$.$validate();
 
@@ -161,6 +173,17 @@ export default {
         this.loading = false;
         this.notify(false, "Пожалуйста, проверьте заполненность формы");
         return;
+      }
+
+      await this.sendMessage(this.form);
+      if (this.getCreatedMessage.success == true) {
+        this.loading = false;
+        this.clearForm();
+        this.notify(true, "Заявка успешно отправлена!");
+        this.v$.$reset();
+      } else {
+        this.loading = false;
+        this.notify(true, this.getCreatedMessage.message);
       }
     },
   },

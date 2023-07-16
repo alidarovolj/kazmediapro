@@ -1,13 +1,15 @@
 import { createStore } from "vuex";
-import Posts from "./modules/posts";
 import Registration from "./modules/registration";
+import Messages from "./modules/messages";
 import Auth from "./modules/auth";
+import Cases from "./modules/cases";
 
 export default createStore({
   modules: {
-    Posts,
     Registration,
     Auth,
+    Messages,
+    Cases,
   },
   actions: {},
   mutations: {},
