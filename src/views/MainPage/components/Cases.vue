@@ -1,8 +1,8 @@
 <template>
   <div ref="cases" id="cases">
     <div class="container mx-auto px-4 lg:px-0 pl-4 relative pt-14 pb-20 z-20">
-      <div class="flex justify-end">
-        <div class="w-full mb-6 lg:mb-[3.438rem]">
+      <div class="flex justify-end mb-6 lg:mb-[3.438rem]">
+        <div class="w-full">
           <div class="flex justify-end">
             <div class="w-1/2">
               <Heading heading="Кейсы" line="right" />
@@ -12,10 +12,10 @@
       </div>
       <div v-if="getCategoryCases">
         <div v-for="(item, index) of getCategoryCases.data" :key="index">
-          <p class="text-[2.75rem] font-bold uppercase">
+          <p class="w-4/5 mx-auto text-[2.75rem] mb-2 lg:mb-6 font-bold uppercase" :class="{ 'text-right' : index % 2 == 1 }">
             {{ item.name }}
           </p>
-          <router-link :to="{ name: 'CasePage', params: { case: qwerty.id } }" v-for="(qwerty, ind) of item.cases" :key="ind" class="relative h-[32.5rem] w-full">
+          <router-link :to="{ name: 'CasePage', params: { case: qwerty.id } }" v-for="(qwerty, ind) of item.cases" :key="ind" class="relative h-[32.5rem] w-full mb-16" :class="{ 'mb-0' : item.cases.length == ind + 1 }">
             <img
               class="w-full h-full object-cover"
               :src="qwerty.images[0]"

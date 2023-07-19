@@ -15,7 +15,7 @@
         class="hidden lg:flex items-center relative flex-col justify-between mr-20"
       >
         <div class="lineFirst"></div>
-        <p class="withLines whitespace-nowrap text-xl text-white py-5">
+        <p class="withLines whitespace-nowrap text-xl text-white py-5 uppercase">
           {{ $t("mainPage.hero.line") }}
         </p>
         <div class="lineSecond"></div>
@@ -36,7 +36,7 @@
         </div>
         <div class="flex items-end h-full w-full">
           <img
-            class="w-full h-full mb-0 relative z-10 object-cover lg:object-none object-bottom lg:translate-x-0 translate-x-1/3"
+            class="w-full h-full mb-0 relative z-10 object-cover lg:object-none object-bottom translate-x-1/3"
             src="@/assets/img/hero/bg.png"
             alt=""
           />

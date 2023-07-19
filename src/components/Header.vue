@@ -5,7 +5,7 @@
   >
     <div class="w-full bg-white dark:bg-darkBg dark:text-white">
       <div class="container mx-auto px-4 lg:px-0">
-        <div class="flex items-center justify-between py-5">
+        <div class="flex items-center justify-between py-[0.875rem]">
           <font-awesome-icon
             @click="menu = !menu"
             class="block lg:hidden text-xl"
@@ -13,69 +13,37 @@
           />
           <img
             @click="$router.push({ name: 'MainPage' })"
-            class="w-28 lg:w-40 block dark:hidden cursor-pointer"
+            class="w-28 lg:w-56 block dark:hidden cursor-pointer"
             src="@/assets/img/logo.png"
             alt=""
           />
           <img
             @click="$router.push({ name: 'MainPage' })"
-            class="w-28 lg:w-40 hidden dark:block cursor-pointer"
+            class="w-28 lg:w-56 hidden dark:block cursor-pointer"
             src="@/assets/img/darkLogo.png"
             alt=""
           />
           <div class="flex items-center">
             <div class="flex items-center mr-3">
               <div class="hidden lg:flex">
-                <a
-                  :class="[
-                    'px-7 transition-all',
-                    {
-                      'hover:text-mainColor': activeSection !== 'about',
-                      'text-mainColor': activeSection === 'about',
-                    },
-                  ]"
-                  href="#about"
-                  >{{ $t("header.links.about") }}</a
-                >
+                <a class="px-7 transition-all uppercase" href="#about">{{
+                  $t("header.links.about")
+                }}</a>
 
-                <a
-                  :class="[
-                    'px-7 transition-all',
-                    {
-                      'hover:text-mainColor': activeSection !== 'services',
-                      'text-mainColor': activeSection === 'services',
-                    },
-                  ]"
-                  href="#services"
-                  >{{ $t("header.links.services") }}</a
-                >
+                <a class="px-7 transition-all uppercase" href="#services">{{
+                  $t("header.links.services")
+                }}</a>
 
-                <a
-                  :class="[
-                    'px-7 transition-all',
-                    {
-                      'hover:text-mainColor': activeSection !== 'cases',
-                      'text-mainColor': activeSection === 'cases',
-                    },
-                  ]"
-                  href="#cases"
-                  >{{ $t("header.links.cases") }}</a
-                >
+                <a class="px-7 transition-all uppercase" href="#cases">{{
+                  $t("header.links.cases")
+                }}</a>
 
-                <a
-                  :class="[
-                    'pl-7 pr-14 transition-all',
-                    {
-                      'hover:text-mainColor': activeSection !== 'contacts',
-                      'text-mainColor': activeSection === 'contacts',
-                    },
-                  ]"
-                  href="#contacts"
-                  >{{ $t("header.links.contacts") }}</a
-                >
+                <a class="px-7 transition-all uppercase" href="#contacts">{{
+                  $t("header.links.contacts")
+                }}</a>
               </div>
               <Locale />
-              <div class="hidden lg:flex items-center ml-3">
+              <!-- <div class="hidden lg:flex items-center ml-3">
                 <div class="font-semibold">
                   <a
                     style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
@@ -84,7 +52,7 @@
                     >{{ $t("general.callRequest") }}</a
                   >
                 </div>
-              </div>
+              </div> -->
             </div>
             <ThemeSwitcher />
           </div>

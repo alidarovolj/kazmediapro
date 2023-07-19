@@ -3,7 +3,7 @@ import { createI18n } from "vue-i18n";
 const messages = {
   ru: {
     general: {
-      callRequest: "Обратный звонок",
+      callRequest: "Оставить заявку",
     },
     header: {
       links: {
@@ -24,7 +24,7 @@ const messages = {
           "Следует отметить, что семантический разбор внешних противодействий обеспечивает актуальность переосмысления внешнеэкономических политик. Для современного мира высокое качество позиционных исследований, в своём классическом представлении, допускает внедрение экономической целесообразности принимаемых решений! В своём стремлении улучшить пользовательский опыт мы упускаем, что элементы политического процесса функционально разнесены на независимые элементы.",
         blocks: {
           first: "Собственная производственная база",
-          second: "Собственные склады хранения",
+          second: "Склады хранения",
           third: "Высокотехнологичное оборудование",
           fourth: "Собственный штат специалистов",
         },
@@ -202,7 +202,7 @@ const messages = {
   },
   en: {
     general: {
-      callRequest: "Back call",
+      callRequest: "Submit your application",
     },
     header: {
       links: {
@@ -223,7 +223,7 @@ const messages = {
           "It should be noted that the semantic analysis of external counteractions ensures the relevance of rethinking foreign economic policies. For the modern world, the high quality of positional research, in its classical form, allows the implementation of the economic feasibility of decisions! In our quest to improve the user experience, we miss that the elements of the political process are functionally separated into independent elements.",
         blocks: {
           first: "Own production base",
-          second: "Own storage warehouses",
+          second: "Warehouses storage",
           third: "High-tech equipment",
           fourth: "Own staff of specialists",
         },
@@ -401,7 +401,7 @@ const messages = {
   },
   kz: {
     general: {
-      callRequest: "Кері қоңырау",
+      callRequest: "Өтінішіңізді жіберіңіз",
     },
     header: {
       links: {
@@ -422,7 +422,7 @@ const messages = {
           "Сыртқы қарсы әрекеттердің семантикалық талдауы сыртқы экономикалық саясатты қайта қараудың өзектілігін қамтамасыз ететінін атап өткен жөн. Қазіргі әлем үшін позициялық зерттеулердің жоғары сапасы, оның классикалық түрінде шешімдердің экономикалық орындылығын жүзеге асыруға мүмкіндік береді! Пайдаланушы тәжірибесін жақсартуға ұмтылу барысында біз саяси процестің элементтері функционалды түрде тәуелсіз элементтерге бөлінгенін сағынамыз.",
         blocks: {
           first: "Жеке өндірістік база",
-          second: "Меншікті сақтау қоймалары",
+          second: "Сақтау қоймалары",
           third: "Жоғары технологиялық жабдық",
           fourth: "Мамандардың жеке құрамы",
         },
