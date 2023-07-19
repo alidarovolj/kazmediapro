@@ -10,15 +10,15 @@
           </div>
         </div>
       </div>
-      <div v-if="getCases">
-        <div v-for="(item, index) of getCases.data" :key="index">
+      <div v-if="getCategoryCases">
+        <div v-for="(item, index) of getCategoryCases.data" :key="index">
           <p class="text-[2.75rem] font-bold uppercase">
-            {{ item.category_id.name }}
+            {{ item.name }}
           </p>
-          <div class="relative h-[32.5rem] w-full">
+          <router-link :to="{ name: 'CasePage', params: { case: qwerty.id } }" v-for="(qwerty, ind) of item.cases" :key="ind" class="relative h-[32.5rem] w-full">
             <img
               class="w-full h-full object-cover"
-              :src="item.images[0]"
+              :src="qwerty.images[0]"
               alt=""
             />
             <div
@@ -27,10 +27,12 @@
             <div
               class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
             >
-              <p class="text-[4rem] font-bold text-center">{{ item.name }}</p>
-              <p class="text-4xl font-bold w-max text-center">{{ item.description }}</p>
+              <p class="text-[4rem] font-bold text-center">{{ qwerty.name }}</p>
+              <p class="text-4xl font-bold w-max text-center">
+                {{ qwerty.description }}
+              </p>
             </div>
-          </div>
+          </router-link>
         </div>
       </div>
     </div>
@@ -47,13 +49,13 @@ export default {
     Heading,
   },
   methods: {
-    ...mapActions(["cases"]),
+    ...mapActions(["categoryCases"]),
   },
   computed: {
-    ...mapGetters(["getCases"]),
+    ...mapGetters(["getCategoryCases"]),
   },
   mounted() {
-    this.cases();
+    this.categoryCases();
   },
 };
 </script>

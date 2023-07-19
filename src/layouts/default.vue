@@ -4,6 +4,11 @@
     <div class="pt-20">
       <slot />
     </div>
+    <img
+      class="fixed right-10 bottom-10 blob"
+      src="@/assets/img/whatsapp.png"
+      alt=""
+    />
     <Footer />
   </div>
 </template>

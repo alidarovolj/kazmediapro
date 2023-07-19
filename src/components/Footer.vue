@@ -6,54 +6,18 @@
           <img class="w-3/4" src="@/assets/img/footerLogo.png" alt="" />
         </div>
         <div class="w-full lg:w-fourth pt-4 mb-10 lg:mb-0 uppercase">
-          <a
-            class="block mb-4 lg:mb-7"
-            :class="[
-              'px-7 transition-all',
-              {
-                'hover:text-mainColor': activeSection !== 'about',
-                'text-mainColor': activeSection === 'about',
-              },
-            ]"
-            href="#about"
-            >{{ $t("header.links.about") }}</a
-          >
-          <a
-            class="block mb-4 lg:mb-7"
-            :class="[
-              'px-7 transition-all',
-              {
-                'hover:text-mainColor': activeSection !== 'services',
-                'text-mainColor': activeSection === 'services',
-              },
-            ]"
-            href="#services"
-            >{{ $t("header.links.services") }}</a
-          >
-          <a
-            class="block mb-4 lg:mb-7"
-            :class="[
-              'px-7 transition-all',
-              {
-                'hover:text-mainColor': activeSection !== 'cases',
-                'text-mainColor': activeSection === 'cases',
-              },
-            ]"
-            href="#cases"
-            >{{ $t("header.links.cases") }}</a
-          >
-          <a
-            class="block"
-            :class="[
-              'pl-7 pr-14 transition-all',
-              {
-                'hover:text-mainColor': activeSection !== 'contacts',
-                'text-mainColor': activeSection === 'contacts',
-              },
-            ]"
-            href="#contacts"
-            >{{ $t("header.links.contacts") }}</a
-          >
+          <a class="block mb-4 lg:mb-7" href="#about">{{
+            $t("header.links.about")
+          }}</a>
+          <a class="block mb-4 lg:mb-7" href="#services">{{
+            $t("header.links.services")
+          }}</a>
+          <a class="block mb-4 lg:mb-7" href="#cases">{{
+            $t("header.links.cases")
+          }}</a>
+          <a class="block" href="#contacts">{{
+            $t("header.links.contacts")
+          }}</a>
         </div>
         <div class="w-full lg:w-fourth mb-10 lg:mb-0 pt-4">
           <p class="mb-4 uppercase font-bold">

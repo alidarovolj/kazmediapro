@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import MainPage from "@/views/MainPage/index.vue";
+import CasePage from "@/views/CasePage/index.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -8,6 +9,12 @@ const router = createRouter({
       path: "/",
       name: "MainPage",
       component: MainPage,
+      //   meta: { requiresAuth: true, breadcrumb: "Сотрудники" },
+    },
+    {
+      path: "/:case",
+      name: "CasePage",
+      component: CasePage,
       //   meta: { requiresAuth: true, breadcrumb: "Сотрудники" },
     },
   ],

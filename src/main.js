@@ -12,6 +12,7 @@ import {
   faXmark,
   faEnvelope,
   faArrowRight,
+  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
 import App from "./App.vue";
@@ -33,6 +34,7 @@ library.add(faArrowDown);
 library.add(faXmark);
 library.add(faEnvelope);
 library.add(faArrowRight);
+library.add(faArrowLeft);
 
 createApp(App)
   .use(store)

@@ -12,12 +12,14 @@
             :icon="['fas', 'bars']"
           />
           <img
-            class="w-28 lg:w-40 block dark:hidden"
+            @click="$router.push({ name: 'MainPage' })"
+            class="w-28 lg:w-40 block dark:hidden cursor-pointer"
             src="@/assets/img/logo.png"
             alt=""
           />
           <img
-            class="w-28 lg:w-40 hidden dark:block"
+            @click="$router.push({ name: 'MainPage' })"
+            class="w-28 lg:w-40 hidden dark:block cursor-pointer"
             src="@/assets/img/darkLogo.png"
             alt=""
           />
