@@ -13,7 +13,7 @@
       <div v-if="getCases">
         <div v-for="(item, index) of getCases.data" :key="index">
           <p class="text-[2.75rem] font-bold uppercase">
-            {{ item.category_id }}
+            {{ item.category_id.name }}
           </p>
           <div class="relative h-[32.5rem] w-full">
             <img
@@ -28,7 +28,7 @@
               class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
             >
               <p class="text-[4rem] font-bold text-center">{{ item.name }}</p>
-              <p class="text-4xl font-bold w-1/3 text-center">{{ item.description }}</p>
+              <p class="text-4xl font-bold w-max text-center">{{ item.description }}</p>
             </div>
           </div>
         </div>
