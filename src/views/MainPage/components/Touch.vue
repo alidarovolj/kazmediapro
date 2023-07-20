@@ -18,7 +18,13 @@
     <div class="relative z-10">
       <div class="container mx-auto px-4 lg:px-0">
         <Heading
-          class="mb-6 lg:mb-[5.25rem]"
+          class="hidden lg:block mb-6 lg:mb-[5.25rem]"
+          :heading="$t('mainPage.touch.header')"
+          line="left"
+          :mainColor="true"
+        />
+        <Heading
+          class="block lg:hidden mb-6 lg:mb-[5.25rem] justify-end"
           :heading="$t('mainPage.touch.header')"
           line="left"
           :mainColor="true"

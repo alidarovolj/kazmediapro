@@ -1,9 +1,9 @@
 <template>
   <div class="footer pt-14 pb-20 text-white dark:bg-darkerBg">
     <div class="container mx-auto px-4 lg:px-0">
-      <div class="block lg:flex items-start justify-between">
+      <div class="block lg:flex h-full justify-between">
         <div class="w-full lg:w-fourth mb-7 lg:mb-0">
-          <img class="w-3/4" src="@/assets/img/footerLogo.png" alt="" />
+          <img class="w-1/2 lg:w-3/4" src="@/assets/img/footerLogo.png" alt="" />
         </div>
         <div class="w-full lg:w-fourth pt-4 mb-10 lg:mb-0 uppercase">
           <a class="block mb-4 lg:mb-7" href="#about">{{
@@ -40,13 +40,13 @@
             </a>
             <a
               href="mailto:info@kazmpro.kz"
-              class="flex hover:text-secondaryColor transition-all items-center mb-4 font-bold"
+              class="flex hover:text-secondaryColor transition-all items-center mb-4 lg:mb-0 font-bold"
             >
               <font-awesome-icon class="mr-3" :icon="['fas', 'envelope']" />
               <p>info@kazmpro.kz</p>
             </a>
           </div>
-          <div class="flex items-center mb-4">
+          <div class="flex items-center">
             <img class="mr-4" src="@/assets/img/footer/instagram.png" alt="" />
             <a
               href="https://www.instagram.com/kazmediapro.kz/?igshid=MzRlODBiNWFlZA%3D%3D#"

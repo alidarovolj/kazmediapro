@@ -1,6 +1,6 @@
 <template>
   <div
-    class="hero dark:!bg-darkerBg"
+    class="hero h-[50rem] lg:h-[42.625rem] dark:!bg-darkerBg"
     style="
       background: linear-gradient(
           154deg,
@@ -15,15 +15,17 @@
         class="hidden lg:flex items-center relative flex-col justify-between mr-20"
       >
         <div class="lineFirst"></div>
-        <p class="withLines whitespace-nowrap text-xl text-white py-5 uppercase">
+        <p
+          class="withLines whitespace-nowrap text-xl text-white py-5 uppercase"
+        >
           {{ $t("mainPage.hero.line") }}
         </p>
         <div class="lineSecond"></div>
       </div>
       <div
-        class="flex flex-col lg:flex-row w-full items-center justify-between"
+        class="flex flex-col lg:flex-row w-full items-start lg:items-center justify-between"
       >
-        <div class="w-full lg:w-1/3 pt-20 lg:pt-0">
+        <div class="w-3/5 lg:w-1/3 pt-20 lg:pt-0 h-max lg:h-auto mb-6 lg:mb-0">
           <h1 class="uppercase text-2xl lg:text-4xl font-bold text-white mb-9">
             {{ $t("mainPage.hero.headText") }}
           </h1>
@@ -36,13 +38,26 @@
         </div>
         <div class="flex items-end h-full w-full">
           <img
-            class="w-full h-full mb-0 relative z-10 object-cover lg:object-none object-bottom translate-x-1/3"
+            class="w-full h-full mb-0 relative z-10 object-cover object-left lg:object-none lg:translate-x-1/3 translate-x-4"
             src="@/assets/img/hero/bg.png"
             alt=""
           />
           <div
             class="rounded-full blur-[300px] bg-white w-[550px] h-[550px] absolute bottom-1/3 right-1/4 translate-x-1/2 translate-y-1/2"
           ></div>
+        </div>
+      </div>
+      <div class="flex lg:hidden items-center absolute left-0 bottom-[4.688rem] z-50 w-full">
+        <div
+          class="relative flex justify-between items-center w-full"
+        >
+          <div class="lineFirstMob"></div>
+          <p
+            class="withLinesMob whitespace-nowrap text-sm text-white px-5 uppercase"
+          >
+            {{ $t("mainPage.hero.line") }}
+          </p>
+          <div class="lineSecondMob"></div>
         </div>
       </div>
     </div>

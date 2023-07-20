@@ -23,10 +23,10 @@ const messages = {
         content:
           "Следует отметить, что семантический разбор внешних противодействий обеспечивает актуальность переосмысления внешнеэкономических политик. Для современного мира высокое качество позиционных исследований, в своём классическом представлении, допускает внедрение экономической целесообразности принимаемых решений! В своём стремлении улучшить пользовательский опыт мы упускаем, что элементы политического процесса функционально разнесены на независимые элементы.",
         blocks: {
-          first: "Собственная производственная база",
+          first: "Собственная производственная база 2000 м",
           second: "Склады хранения",
           third: "Высокотехнологичное оборудование",
-          fourth: "Собственный штат специалистов",
+          fourth: "Высокий уровень сервиса",
         },
       },
       manufacture: {
@@ -222,10 +222,10 @@ const messages = {
         content:
           "It should be noted that the semantic analysis of external counteractions ensures the relevance of rethinking foreign economic policies. For the modern world, the high quality of positional research, in its classical form, allows the implementation of the economic feasibility of decisions! In our quest to improve the user experience, we miss that the elements of the political process are functionally separated into independent elements.",
         blocks: {
-          first: "Own production base",
-          second: "Warehouses storage",
+          first: "Own production base 2000 m",
+          second: "Storage warehouses",
           third: "High-tech equipment",
-          fourth: "Own staff of specialists",
+          fourth: "High level of service",
         },
       },
       manufacture: {
@@ -421,10 +421,10 @@ const messages = {
         content:
           "Сыртқы қарсы әрекеттердің семантикалық талдауы сыртқы экономикалық саясатты қайта қараудың өзектілігін қамтамасыз ететінін атап өткен жөн. Қазіргі әлем үшін позициялық зерттеулердің жоғары сапасы, оның классикалық түрінде шешімдердің экономикалық орындылығын жүзеге асыруға мүмкіндік береді! Пайдаланушы тәжірибесін жақсартуға ұмтылу барысында біз саяси процестің элементтері функционалды түрде тәуелсіз элементтерге бөлінгенін сағынамыз.",
         blocks: {
-          first: "Жеке өндірістік база",
+          first: "Жеке өндірістік базасы 2000 м",
           second: "Сақтау қоймалары",
           third: "Жоғары технологиялық жабдық",
-          fourth: "Мамандардың жеке құрамы",
+          fourth: "Қызмет көрсетудің жоғары деңгейі",
         },
       },
       manufacture: {

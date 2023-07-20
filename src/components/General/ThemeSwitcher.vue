@@ -2,13 +2,13 @@
   <div class="bg-secondaryColor flex items-center">
     <font-awesome-icon
       v-if="currentTheme == 'light'"
-      class="cursor-pointer p-2 text-mainColor"
+      class="cursor-pointer p-2 text-mainColor text-sm lg:text-base"
       @click="setTheme('dark')"
       :icon="['fas', 'sun']"
     />
     <font-awesome-icon
       v-else
-      class="cursor-pointer p-2 text-mainColor"
+      class="cursor-pointer p-2 text-mainColor text-sm lg:text-base"
       @click="setTheme('light')"
       :icon="['fas', 'moon']"
     />

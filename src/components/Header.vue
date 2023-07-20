@@ -8,18 +8,18 @@
         <div class="flex items-center justify-between py-[0.875rem]">
           <font-awesome-icon
             @click="menu = !menu"
-            class="block lg:hidden text-xl"
+            class="block lg:hidden text-3xl"
             :icon="['fas', 'bars']"
           />
           <img
             @click="$router.push({ name: 'MainPage' })"
-            class="w-28 lg:w-56 block dark:hidden cursor-pointer"
+            class="w-36 lg:w-56 block dark:hidden cursor-pointer"
             src="@/assets/img/logo.png"
             alt=""
           />
           <img
             @click="$router.push({ name: 'MainPage' })"
-            class="w-28 lg:w-56 hidden dark:block cursor-pointer"
+            class="w-36 lg:w-56 hidden dark:block cursor-pointer"
             src="@/assets/img/darkLogo.png"
             alt=""
           />
@@ -71,21 +71,25 @@
         >
           <div class="mb-10">
             <a
+              @click="menu = false"
               class="px-3 transition-all block mb-6 hover:text-mainColor"
               href="#about"
               >{{ $t("header.links.about") }}</a
             >
             <a
+              @click="menu = false"
               class="px-3 transition-all block mb-6 hover:text-mainColor"
               href="#services"
               >{{ $t("header.links.services") }}</a
             >
             <a
+              @click="menu = false"
               class="px-3 transition-all block mb-6 hover:text-mainColor"
               href="#cases"
               >{{ $t("header.links.cases") }}</a
             >
             <a
+              @click="menu = false"
               class="px-3 transition-all block hover:text-mainColor"
               href="#contacts"
               >{{ $t("header.links.contacts") }}</a

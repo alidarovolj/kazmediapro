@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div class="pt-20">
+    <div class="pt-[4.688rem]">
       <slot />
     </div>
     <img

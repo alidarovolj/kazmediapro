@@ -1,8 +1,12 @@
 <template>
-  <section ref="services" id="services" class="pt-32 dark:bg-darkBg dark:text-white">
+  <section
+    ref="services"
+    id="services"
+    class="pt-32 dark:bg-darkBg dark:text-white"
+  >
     <div class="block lg:flex pb-0 lg:pb-28">
       <img
-        class="hidden lg:block absolute left-0 bottom-0 w-3/4 lg:w-[500px]"
+        class="hidden lg:block absolute left-0 bottom-0 w-3/4 h-auto lg:h-auto lg:w-[500px] lg:-translate-x-[15%]"
         src="@/assets/img/services/bg.png"
         alt=""
       />
@@ -30,7 +34,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.first.header") }}
                 </p>
@@ -50,7 +54,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.second.header") }}
                 </p>
@@ -70,7 +74,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.third.header") }}
                 </p>
@@ -90,7 +94,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.fourth.header") }}
                 </p>
@@ -110,7 +114,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.fifth.header") }}
                 </p>
@@ -130,7 +134,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.sixth.header") }}
                 </p>
@@ -150,7 +154,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.seventh.header") }}
                 </p>
@@ -170,7 +174,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.eighth.header") }}
                 </p>
@@ -190,7 +194,7 @@
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                  class="text-mainColor text-xl uppercase font-bold mb-2 w-3/4"
+                  class="text-mainColor text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.ninth.header") }}
                 </p>
@@ -210,7 +214,7 @@
         alt=""
       />
       <div
-        class="static lg:absolute left-0 bottom-0 translate-y-0 lg:translate-y-1/2"
+        class="static lg:absolute -mb-9 lg:mt-0 left-0 bottom-0 translate-y-0 lg:translate-y-1/2"
       >
         <div class="block lg:flex justify-between">
           <div
@@ -222,7 +226,7 @@
               src="@/assets/img/services/1.svg"
               alt=""
             />
-            <p class="text-xs font-bold text-white">
+            <p class="text-xs font-medium text-white">
               {{ $t("mainPage.services.benefits.first") }}
             </p>
           </div>
@@ -235,7 +239,7 @@
               src="@/assets/img/services/2.svg"
               alt=""
             />
-            <p class="text-xs font-bold text-white">
+            <p class="text-xs font-medium text-white">
               {{ $t("mainPage.services.benefits.second") }}
             </p>
           </div>
@@ -248,7 +252,7 @@
               src="@/assets/img/services/3.svg"
               alt=""
             />
-            <p class="text-xs font-bold text-white">
+            <p class="text-xs font-medium text-white">
               {{ $t("mainPage.services.benefits.third") }}
             </p>
           </div>

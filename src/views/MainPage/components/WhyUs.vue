@@ -2,7 +2,7 @@
   <div class="bg-mainColor dark:bg-darkerBg">
     <div class="container mx-auto px-4 lg:px-0 py-10">
       <Heading
-        class="mb-6 lg:mb-[5.25rem]"
+        class="mb-6 lg:mb-[4.063rem]"
         :heading="$t('mainPage.whyUs.header')"
         line="right"
         :center="true"
@@ -39,7 +39,7 @@
             alt=""
           />
           <p
-            class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-2/3 mx-auto"
+            class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-1/2 mx-auto"
           >
             {{ $t("mainPage.whyUs.third") }}
           </p>
