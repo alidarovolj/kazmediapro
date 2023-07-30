@@ -2,24 +2,30 @@
   <section
     ref="services"
     id="services"
-    class="pt-32 dark:bg-darkBg dark:text-white"
+    class="pt-[6.75rem] lg:pt-36 pb-36 dark:bg-darkBg dark:text-white"
   >
     <div class="block lg:flex pb-0 lg:pb-28">
-      <img
-        class="hidden lg:block absolute left-0 bottom-0 w-3/4 h-auto lg:h-auto lg:w-[500px] lg:-translate-x-[15%]"
-        src="@/assets/img/services/bg.png"
-        alt=""
-      />
       <div
-        class="container mx-auto px-4 lg:px-0 pl-4 lg:!pl-24 relative z-20 flex justify-end"
+        class="container mx-auto px-4 lg:px-0 pl-4 lg:!pl-24 relative z-20 flex justify-end mb-8 lg:mb-0"
       >
-        <div class="w-full lg:w-4/5">
-          <Heading
-            class="mb-6 lg:mb-[4.5rem]"
-            :heading="$t('mainPage.services.header')"
-            line="right"
-            :center="true"
-          />
+        <div class="w-full">
+          <div class="flex justify-end">
+            <div class=" w-2/5 flex">
+              <Heading
+                  class="hidden lg:flex mb-6 lg:mb-[4.5rem]"
+                  :heading="$t('mainPage.services.header')"
+                  line="right"
+              />
+            </div>
+          </div>
+          <div class="flex justify-start">
+            <Heading
+              class="flex lg:hidden mb-6 lg:mb-[4.5rem]"
+              :heading="$t('mainPage.services.header')"
+              line="right"
+              :center="true"
+            />
+          </div>
           <div class="w-full flex justify-between flex-wrap">
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
@@ -204,58 +210,47 @@
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="container mt-8 lg:mt-0 flex lg:block mx-auto px-4 lg:px-0 relative z-30"
-    >
-      <img
-        class="w-1/2 mt-6 block lg:hidden -translate-x-1/4"
-        src="@/assets/img/services/bg.png"
-        alt=""
-      />
       <div
-        class="static lg:absolute -mb-9 lg:mt-0 left-0 bottom-0 translate-y-0 lg:translate-y-1/2"
-      >
-        <div class="block lg:flex justify-between">
-          <div
+          class="bg-[#E1E1E1] -mb-56 relative z-50 lg:mb-0 text-black w-[80%] mx-auto lg:mx-0 lg:w-half py-5 lg:py-6 px-5 lg:px-14 text-xs lg:text-base rounded-tl-lg rounded-br-lg lg:absolute right-0 -bottom-[38%]"
+          style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+        <div
             style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-            class="bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
-          >
-            <img
+            class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
+        >
+          <img
               class="w-10 h-10 mx-auto mb-2"
               src="@/assets/img/services/1.svg"
               alt=""
-            />
-            <p class="text-xs font-medium text-white">
-              {{ $t("mainPage.services.benefits.first") }}
-            </p>
-          </div>
-          <div
+          />
+          <p class="text-xs font-medium text-white">
+            {{ $t("mainPage.services.benefits.first") }}
+          </p>
+        </div>
+        <div
             style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-            class="bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center mx-0 lg:mx-6 w-[150px] max-w-[150px]"
-          >
-            <img
+            class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center mx-0 lg:mx-6 w-[150px] max-w-[150px]"
+        >
+          <img
               class="w-10 h-10 mx-auto mb-2"
               src="@/assets/img/services/2.svg"
               alt=""
-            />
-            <p class="text-xs font-medium text-white">
-              {{ $t("mainPage.services.benefits.second") }}
-            </p>
-          </div>
-          <div
+          />
+          <p class="text-xs font-medium text-white">
+            {{ $t("mainPage.services.benefits.second") }}
+          </p>
+        </div>
+        <div
             style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-            class="bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
-          >
-            <img
+            class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
+        >
+          <img
               class="w-10 h-10 mx-auto mb-2"
               src="@/assets/img/services/3.svg"
               alt=""
-            />
-            <p class="text-xs font-medium text-white">
-              {{ $t("mainPage.services.benefits.third") }}
-            </p>
-          </div>
+          />
+          <p class="text-xs font-medium text-white">
+            {{ $t("mainPage.services.benefits.third") }}
+          </p>
         </div>
       </div>
     </div>
@@ -277,4 +272,3 @@ export default {
   },
 };
 </script>
-

@@ -3,7 +3,7 @@
     class="header fixed w-full z-50 top-0 left-0"
     style="box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.25)"
   >
-    <div class="w-full bg-white dark:bg-darkBg dark:text-white">
+    <div class="w-full dark:bg-darkBg dark:text-white">
       <div class="container mx-auto px-4 lg:px-0">
         <div class="flex items-center justify-between py-[0.875rem]">
           <font-awesome-icon
@@ -11,19 +11,19 @@
             class="block lg:hidden text-3xl"
             :icon="['fas', 'bars']"
           />
-          <img
-            @click="$router.push({ name: 'MainPage' })"
-            class="w-36 lg:w-56 block dark:hidden cursor-pointer"
-            src="@/assets/img/logo.png"
-            alt=""
-          />
-          <img
-            @click="$router.push({ name: 'MainPage' })"
-            class="w-36 lg:w-56 hidden dark:block cursor-pointer"
-            src="@/assets/img/darkLogo.png"
-            alt=""
-          />
-          <div class="flex items-center">
+          <a href="#hero">
+            <img
+              @click="$router.push({ name: 'MainPage' })"
+              class="w-36 lg:w-[11.75rem] block dark:hidden cursor-pointer"
+              src="@/assets/img/logo.png"
+              alt="" />
+            <img
+              @click="$router.push({ name: 'MainPage' })"
+              class="w-36 lg:w-[11.75rem] hidden dark:block cursor-pointer"
+              src="@/assets/img/darkLogo.png"
+              alt=""
+          /></a>
+          <div class="flex items-center font-bold">
             <div class="flex items-center mr-3">
               <div class="hidden lg:flex">
                 <a class="px-7 transition-all uppercase" href="#about">{{
@@ -43,16 +43,6 @@
                 }}</a>
               </div>
               <Locale />
-              <!-- <div class="hidden lg:flex items-center ml-3">
-                <div class="font-semibold">
-                  <a
-                    style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
-                    class="px-7 py-3 text-base font-bold bg-secondaryColor text-white cursor-pointer w-max"
-                    href="#message"
-                    >{{ $t("general.callRequest") }}</a
-                  >
-                </div>
-              </div> -->
             </div>
             <ThemeSwitcher />
           </div>
@@ -67,7 +57,7 @@
           :icon="['fas', 'xmark']"
         />
         <div
-          class="h-screen w-full px-4 py-5 bg-white flex items-center text-xl font-medium"
+          class="h-screen w-full px-4 py-5 bg-white flex items-center text-xl font-bold"
         >
           <div class="mb-10">
             <a
@@ -112,43 +102,7 @@ export default {
     return {
       menu: false,
       activeSection: null,
-      sectionScrollPositions: {
-        about: 0, // Adjust the scroll positions as needed
-        services: 800, // Adjust the scroll positions as needed
-        cases: 1600, // Adjust the scroll positions as needed
-        contacts: 2400, // Adjust the scroll positions as needed
-      },
     };
-  },
-  mounted() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-  beforeUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      const scrollPosition = window.scrollY;
-      const sectionElements = document.querySelectorAll("section"); // Assuming the sections have <section> tags, adjust if necessary
-
-      let activeSection = null;
-
-      // Iterate through the sections and find the one in the viewport
-      sectionElements.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.offsetHeight;
-        const sectionId = section.getAttribute("id");
-
-        if (
-          scrollPosition >= sectionTop &&
-          scrollPosition < sectionTop + sectionHeight
-        ) {
-          activeSection = sectionId;
-        }
-      });
-
-      this.activeSection = activeSection;
-    },
   },
   components: {
     Button,

@@ -1,75 +1,146 @@
 <template>
   <div
-    class="hero h-[50rem] lg:h-[42.625rem] dark:!bg-darkerBg"
-    style="
-      background: linear-gradient(
-          154deg,
-          rgba(0, 0, 0, 0.2) 0%,
-          rgba(0, 0, 0, 0) 81.97%
-        ),
-        #1d52a7;
-    "
+    ref="hero"
+    id="hero"
+    class="hero dark:!bg-darkerBg relative"
   >
-    <div class="h-full relative flex container mx-auto px-4 lg:px-0">
+    <div class="h-full flex container mx-auto px-4 lg:px-0 lg:pt-20">
+<!--      <div-->
+<!--        class="hidden lg:flex items-center relative flex-col justify-between mr-20"-->
+<!--      >-->
+<!--        <div class="lineFirst"></div>-->
+<!--        <p-->
+<!--          class="withLines whitespace-nowrap text-xl text-white py-5 uppercase"-->
+<!--        >-->
+<!--          {{ $t("mainPage.hero.line") }}-->
+<!--        </p>-->
+<!--        <div class="lineSecond"></div>-->
+<!--      </div>-->
       <div
-        class="hidden lg:flex items-center relative flex-col justify-between mr-20"
+        class="block lg:flex w-full items-start lg:items-center justify-between"
       >
-        <div class="lineFirst"></div>
-        <p
-          class="withLines whitespace-nowrap text-xl text-white py-5 uppercase"
-        >
-          {{ $t("mainPage.hero.line") }}
-        </p>
-        <div class="lineSecond"></div>
-      </div>
-      <div
-        class="flex flex-col lg:flex-row w-full items-start lg:items-center justify-between"
-      >
-        <div class="w-3/5 lg:w-1/3 pt-20 lg:pt-0 h-max lg:h-auto mb-6 lg:mb-0">
-          <h1 class="uppercase text-2xl lg:text-4xl font-bold text-white mb-9">
-            {{ $t("mainPage.hero.headText") }}
-          </h1>
-          <a
-            style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
-            class="px-7 py-3 text-base font-bold bg-secondaryColor text-white cursor-pointer w-max"
-            href="#message"
+        <div class="block lg:pb-20 lg:pt-20">
+          <div class="w-3/5 lg:w-full pt-20 lg:pt-0 h-max lg:h-auto mb-12 lg:mb-28">
+            <h1 class="uppercase text-2xl lg:text-[2.75rem] lg:leading-none font-bold text-white">
+              {{ $t("mainPage.hero.headText") }}
+            </h1>
+            <div class="text-secondaryColor mt-6 mb-10 text-sm lg:text-lg font-light">
+              <p class="mb-3 lg:mb-0">{{ $t("mainPage.hero.firstRow") }}</p>
+              <p>{{ $t("mainPage.hero.secondRow") }}</p>
+            </div>
+            <a
+                style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
+                class="px-7 py-3 text-base font-bold bg-secondaryColor text-white cursor-pointer w-max"
+                href="#message"
             >{{ $t("general.callRequest") }}</a
-          >
+            >
+          </div>
+          <div class="flex items-end lg:items-center">
+            <div class="flex flex-col lg:flex-row justify-center mb-20">
+              <div class="w-max text-center flex flex-col justify-center mx-auto mb-4">
+                <img
+                    class="mx-auto w-6 lg:w-10 h-6 lg:h-10 mb-2"
+                    src="@/assets/img/whyUs/1.png"
+                    alt=""
+                />
+                <p
+                    class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-2/3 mx-auto"
+                >
+                  {{ $t("mainPage.whyUs.first") }}
+                </p>
+              </div>
+              <div class="w-max text-center flex flex-col justify-center mx-auto mb-4">
+                <img
+                    class="mx-auto w-6 lg:w-10 h-6 lg:h-10 mb-2"
+                    src="@/assets/img/whyUs/2.png"
+                    alt=""
+                />
+                <p
+                    class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-2/3 mx-auto"
+                >
+                  {{ $t("mainPage.whyUs.second") }}
+                </p>
+              </div>
+              <div class="w-max text-center flex flex-col justify-center mx-auto mb-4">
+                <img
+                    class="mx-auto w-6 lg:w-10 h-6 lg:h-10 mb-2"
+                    src="@/assets/img/whyUs/3.png"
+                    alt=""
+                />
+                <p
+                    class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-1/2 mx-auto"
+                >
+                  {{ $t("mainPage.whyUs.third") }}
+                </p>
+              </div>
+              <div class="w-max text-center flex flex-col justify-center mx-auto mb-4">
+                <img
+                    class="mx-auto w-6 lg:w-10 h-6 lg:h-10 mb-2"
+                    src="@/assets/img/whyUs/4.png"
+                    alt=""
+                />
+                <p
+                    class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-2/3 mx-auto"
+                >
+                  {{ $t("mainPage.whyUs.fourth") }}
+                </p>
+              </div>
+              <div class="w-max text-center flex flex-col justify-center mx-auto">
+                <img
+                    class="mx-auto w-6 lg:w-10 h-6 lg:h-10 mb-2"
+                    src="@/assets/img/whyUs/5.png"
+                    alt=""
+                />
+                <p
+                    class="text-[10px] lg:text-sm font-medium text-white w-10/12 lg:w-2/3 mx-auto"
+                >
+                  {{ $t("mainPage.whyUs.fifth") }}
+                </p>
+              </div>
+            </div>
+            <img
+                class="w-[403px] lg:w-max block lg:hidden h-full mb-0 z-10 lg:object-cover object-left lg:object-bottom lg:object-none lg:translate-x-1/3 translate-x-4 lg:absolute right-0 bottom-0"
+                src="@/assets/img/hero/bg.png"
+                alt=""
+            />
+          </div>
         </div>
-        <div class="flex items-end h-full w-full">
+        <div class="flex justify-between lg:justify-normal items-end h-full w-full">
           <img
-            class="w-full h-full mb-0 relative z-10 object-cover object-left lg:object-none lg:translate-x-1/3 translate-x-4"
+            class="w-max hidden lg:block h-full mb-0 z-10 object-cover object-left lg:object-bottom lg:object-none lg:translate-x-1/3 translate-x-4 lg:absolute right-0 bottom-0"
             src="@/assets/img/hero/bg.png"
             alt=""
           />
           <div
-            class="rounded-full blur-[300px] bg-white w-[550px] h-[550px] absolute bottom-1/3 right-1/4 translate-x-1/2 translate-y-1/2"
+            class="rounded-full blur-[300px] bg-white w-[550px] h-[550px] absolute bottom-[200px] right-[200px] translate-x-1/2 translate-y-1/2"
           ></div>
         </div>
       </div>
-      <div class="flex lg:hidden items-center absolute left-0 bottom-[4.688rem] z-50 w-full">
-        <div
-          class="relative flex justify-between items-center w-full"
-        >
-          <div class="lineFirstMob"></div>
-          <p
-            class="withLinesMob whitespace-nowrap text-sm text-white px-5 uppercase"
-          >
-            {{ $t("mainPage.hero.line") }}
-          </p>
-          <div class="lineSecondMob"></div>
-        </div>
-      </div>
+<!--      <div-->
+<!--        class="flex lg:hidden items-center absolute left-0 bottom-[4.688rem] z-50 w-full"-->
+<!--      >-->
+<!--        <div class="relative flex justify-between items-center w-full">-->
+<!--          <div class="lineFirstMob"></div>-->
+<!--          <p-->
+<!--            class="withLinesMob whitespace-nowrap text-sm text-white px-5 uppercase"-->
+<!--          >-->
+<!--            {{ $t("mainPage.hero.line") }}-->
+<!--          </p>-->
+<!--          <div class="lineSecondMob"></div>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </div>
 </template>
 
 <script>
 import Button from "@/components/General/Button.vue";
+import Heading from "@/components/General/Heading.vue";
 
 export default {
   name: "Hero",
   components: {
+    Heading,
     Button,
   },
 };

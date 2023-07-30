@@ -5,20 +5,20 @@
   >
     <div class="lineBase">
       <div
-        :class="{ '!bg-mainColor': mainColor == true }"
+        :class="[{ '!bg-mainColor': mainColor == true }, { '!bg-white': white == true }]"
         class="lineLeft"
         v-if="line == 'left'"
       ></div>
     </div>
     <h2
-      :class="{ '!text-mainColor': mainColor == true }"
-      class="font-bold text-2xl lg:text-[3.375rem] whitespace-normal lg:whitespace-nowrap text-secondaryColor uppercase flex justify-center"
+      :class="[{ '!text-mainColor': mainColor == true }, { '!text-white': white == true }]"
+      class="font-bold text-2xl lg:text-[3.375rem] text-secondaryColor uppercase flex leading-none"
     >
       {{ heading }}
     </h2>
     <div class="lineBase">
       <div
-        :class="{ '!bg-mainColor': mainColor == true }"
+        :class="[{ '!bg-mainColor': mainColor == true }, { '!bg-white': white == true }]"
         class="lineRight"
         v-if="line == 'right'"
       ></div>
@@ -43,6 +43,10 @@ export default {
       required: false,
     },
     mainColor: {
+      type: Boolean,
+      required: false,
+    },
+    white: {
       type: Boolean,
       required: false,
     },
@@ -75,6 +79,9 @@ export default {
 .lineRight.\!bg-mainColor::before {
   background: #2058aa;
 }
+.lineRight.\!bg-white::before {
+  background: #fff;
+}
 .lineLeft {
   position: absolute;
   background: #f18a02;
@@ -96,5 +103,8 @@ export default {
 }
 .lineLeft.\!bg-mainColor::before {
   background: #2058aa;
+}
+.lineLeft.\!bg-white::before {
+  background: #fff;
 }
 </style>

@@ -1,11 +1,6 @@
 <template>
   <section ref="contacts" id="contacts">
     <div class="py-14 lg:py-40 relative dark:bg-darkBg dark:text-white">
-      <img
-        class="absolute left-0 dark:hidden top-0 w-full h-full object-cover"
-        src="@/assets/img/bg.png"
-        alt=""
-      />
       <div class="relative z-10 container mx-auto px-4 lg:px-0">
         <div class="block lg:flex items-center justify-between">
           <div class="w-full lg:w-half mb-6 lg:mb-0">

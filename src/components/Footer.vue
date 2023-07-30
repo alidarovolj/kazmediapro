@@ -1,9 +1,13 @@
 <template>
-  <div class="footer pt-14 pb-20 text-white dark:bg-darkerBg">
+  <div class="footer pt-14 pb-20 text-white bg-mainColor dark:bg-darkerBg">
     <div class="container mx-auto px-4 lg:px-0">
       <div class="block lg:flex h-full justify-between">
         <div class="w-full lg:w-fourth mb-7 lg:mb-0">
-          <img class="w-1/2 lg:w-3/4" src="@/assets/img/footerLogo.png" alt="" />
+          <img
+            class="w-1/2 lg:w-3/4"
+            src="@/assets/img/footerLogo.png"
+            alt=""
+          />
         </div>
         <div class="w-full lg:w-fourth pt-4 mb-10 lg:mb-0 uppercase">
           <a class="block mb-4 lg:mb-7" href="#about">{{

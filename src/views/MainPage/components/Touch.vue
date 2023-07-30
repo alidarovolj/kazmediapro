@@ -1,12 +1,7 @@
 <template>
   <div
-    class="relative pt-16 lg:pt-[10.625rem] pb-14 lg:pb-[10.938rem] bg-secondaryColor dark:bg-darkerBg"
+    class="relative pt-[10.75rem] lg:pt-[10.625rem] pb-14 lg:pb-[10.938rem] bg-mainColor dark:bg-darkerBg"
   >
-    <img
-      class="w-full h-full dark:hidden absolute left-0 top-0 object-cover"
-      src="@/assets/img/touch/bg.png"
-      alt=""
-    />
     <img
       class="z-10 w-3/5 lg:w-max h-auto absolute right-0 bottom-0"
       src="@/assets/img/touch/object.png"
@@ -18,16 +13,18 @@
     <div class="relative z-10">
       <div class="container mx-auto px-4 lg:px-0">
         <Heading
-          class="hidden lg:block mb-6 lg:mb-[5.25rem]"
+          class="hidden lg:flex mb-6 lg:mb-[5.25rem]"
           :heading="$t('mainPage.touch.header')"
           line="left"
-          :mainColor="true"
+          :mainColor="false"
+          :white="true"
         />
         <Heading
-          class="block lg:hidden mb-6 lg:mb-[5.25rem] justify-end"
+          class="flex lg:hidden mb-10 lg:mb-[5.25rem] justify-end"
           :heading="$t('mainPage.touch.header')"
           line="left"
           :mainColor="true"
+          :white="true"
         />
         <div class="flex flex-col lg:flex-row justify-between w-1/2 lg:w-4/5">
           <div class="w-full lg:w-third text-white mb-4 lg:mb-0">
@@ -40,11 +37,11 @@
               <div class="-mt-10">
                 <div class="flex items-end">
                   <p
-                    class="text-7xl lg:text-9xl w-1/4 text-mainColor font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
+                    class="text-7xl lg:text-9xl w-1/4 text-white font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
                   >
                     1
                   </p>
-                  <p class="text-xs lg:text-sm font-bold w-full lg:w-3/4">
+                  <p class="text-base lg:text-sm font-bold w-full lg:w-3/4">
                     {{ $t("mainPage.touch.first.header") }}
                   </p>
                 </div>
@@ -71,11 +68,11 @@
               <div class="-mt-10">
                 <div class="flex items-end">
                   <p
-                    class="text-7xl lg:text-9xl w-1/4 text-mainColor font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
+                    class="text-7xl lg:text-9xl w-1/4 text-white font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
                   >
                     2
                   </p>
-                  <p class="text-xs lg:text-sm font-bold w-full lg:w-1/3">
+                  <p class="text-base lg:text-sm font-bold w-full lg:w-1/3">
                     {{ $t("mainPage.touch.second.header") }}
                   </p>
                 </div>
@@ -92,7 +89,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full lg:w-third text-white">
+          <div class="w-full lg:w-1/2 text-white">
             <img
               class="mx-auto ml-0 lg:ml-8 w-3/4 lg:w-auto"
               src="@/assets/img/touch/3.png"
@@ -102,11 +99,11 @@
               <div class="-mt-10">
                 <div class="flex items-end">
                   <p
-                    class="text-7xl lg:text-9xl w-1/4 text-mainColor font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
+                    class="text-7xl lg:text-9xl w-1/4 text-white font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
                   >
                     3
                   </p>
-                  <p class="text-xs lg:text-sm font-bold w-full lg:w-1/3">
+                  <p class="text-base lg:text-sm font-bold w-full lg:w-1/3">
                     {{ $t("mainPage.touch.third.header") }}
                   </p>
                 </div>
