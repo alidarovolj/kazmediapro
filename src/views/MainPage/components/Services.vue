@@ -210,47 +210,49 @@
           </div>
         </div>
       </div>
-      <div
-          class="bg-[#E1E1E1] -mb-56 relative z-50 lg:mb-0 text-black w-[80%] mx-auto lg:mx-0 lg:w-half py-5 lg:py-6 px-5 lg:px-14 text-xs lg:text-base rounded-tl-lg rounded-br-lg lg:absolute right-0 -bottom-[38%]"
-          style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+      <div class="container mx-auto relative lg:static">
         <div
-            style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-            class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
-        >
-          <img
-              class="w-10 h-10 mx-auto mb-2"
-              src="@/assets/img/services/1.svg"
-              alt=""
-          />
-          <p class="text-xs font-medium text-white">
-            {{ $t("mainPage.services.benefits.first") }}
-          </p>
-        </div>
-        <div
-            style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-            class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center mx-0 lg:mx-6 w-[150px] max-w-[150px]"
-        >
-          <img
-              class="w-10 h-10 mx-auto mb-2"
-              src="@/assets/img/services/2.svg"
-              alt=""
-          />
-          <p class="text-xs font-medium text-white">
-            {{ $t("mainPage.services.benefits.second") }}
-          </p>
-        </div>
-        <div
-            style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-            class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
-        >
-          <img
-              class="w-10 h-10 mx-auto mb-2"
-              src="@/assets/img/services/3.svg"
-              alt=""
-          />
-          <p class="text-xs font-medium text-white">
-            {{ $t("mainPage.services.benefits.third") }}
-          </p>
+            class="bg-[#E1E1E1] text-black w-[80%] relative mx-auto lg:mx-0 lg:w-max py-5 lg:py-6 px-5 lg:px-14 text-xs -mb-56 lg:mb-0 lg:text-base rounded-tl-lg rounded-br-lg lg:absolute block lg:flex right-0 bottom-[38%] lg:-bottom-[5%] z-20"
+            style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+          <div
+              style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
+              class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
+          >
+            <img
+                class="w-10 h-10 mx-auto mb-2"
+                src="@/assets/img/services/1.svg"
+                alt=""
+            />
+            <p class="text-xs font-medium text-white">
+              {{ $t("mainPage.services.benefits.first") }}
+            </p>
+          </div>
+          <div
+              style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
+              class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center lg:mx-6 w-[150px] max-w-[150px]"
+          >
+            <img
+                class="w-10 h-10 mx-auto mb-2"
+                src="@/assets/img/services/2.svg"
+                alt=""
+            />
+            <p class="text-xs font-medium text-white">
+              {{ $t("mainPage.services.benefits.second") }}
+            </p>
+          </div>
+          <div
+              style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
+              class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center w-[150px] max-w-[150px]"
+          >
+            <img
+                class="w-10 h-10 mx-auto mb-2"
+                src="@/assets/img/services/3.svg"
+                alt=""
+            />
+            <p class="text-xs font-medium text-white">
+              {{ $t("mainPage.services.benefits.third") }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
