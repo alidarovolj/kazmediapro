@@ -19,6 +19,9 @@ export default {
       minWidth: {
         half: "49%",
       },
+      maxWidth: {
+        half: "49%",
+      }
     },
   },
   plugins: [],

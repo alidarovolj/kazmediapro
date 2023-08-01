@@ -5,8 +5,8 @@
       class="relative pt-[3.75rem] lg:pt-32 dark:bg-darkBg dark:text-white"
   >
     <div class="container mx-auto px-4 lg:px-0">
-      <div class="flex justify-end">
-        <div class="w-2/5 flex">
+      <div class="flex justify-start lg:justify-end">
+        <div class="w-full lg:w-2/5 flex">
           <Heading
               class="mb-6 lg:mb-[5.25rem]"
               :heading="$t('mainPage.about.header')"
@@ -18,30 +18,30 @@
           class="flex flex-col-reverse lg:flex-row justify-between items-center mb-6 lg:mb-[8.5rem]"
       >
         <div class="w-full lg:w-half">
-          <div class="flex justify-between items-center">
+          <div class="flex justify-between h-full">
             <div class="w-half min-w-half mb-3">
-              <div class="py-6 px-1 bg-mainColor">
+              <div class="py-6 px-1 bg-mainColor h-full">
                 <img
                     class="w-14 h-14 mx-auto mb-5"
                     src="@/assets/img/about/1.svg"
                     alt=""
                 />
                 <p
-                    class="text-[10px] lg:text-base text-center text-white"
+                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.first") }}
                 </p>
               </div>
             </div>
             <div class="w-half min-w-half mb-3">
-              <div class="py-6 px-4 bg-mainColor">
+              <div class="py-6 px-4 bg-mainColor h-full">
                 <img
-                    class="w-14 h-14 mx-auto mb-5"
+                    class="w-20 h-14 mx-auto mb-5"
                     src="@/assets/img/about/2.svg"
                     alt=""
                 />
                 <p
-                    class="text-[10px] w-1/2 mx-auto lg:text-base text-center text-white"
+                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.second") }}
                 </p>
@@ -49,29 +49,29 @@
             </div>
           </div>
           <div class="flex justify-between">
-            <div class="w-half mb-3 lg:mb-0 min-w-half">
-              <div class="py-6 px-4 bg-mainColor">
+            <div class="w-half min-w-half mb-3">
+              <div class="py-6 px-4 bg-mainColor h-full">
                 <img
                     class="w-14 h-14 mx-auto mb-5"
                     src="@/assets/img/about/3.svg"
                     alt=""
                 />
                 <p
-                    class="text-[10px] lg:text-base text-center text-white"
+                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.third") }}
                 </p>
               </div>
             </div>
-            <div class="w-half min-w-half">
-              <div class="py-6 px-4 bg-mainColor">
+            <div class="w-half min-w-half mb-3">
+              <div class="py-6 px-4 bg-mainColor h-full">
                 <img
                     class=" w-24 h-14 mx-auto mb-5"
                     src="@/assets/img/about/4.svg"
                     alt=""
                 />
                 <p
-                    class="text-[10px] w-3/4 mx-auto lg:text-base text-center text-white"
+                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.fourth") }}
                 </p>
@@ -79,17 +79,17 @@
             </div>
           </div>
         </div>
-        <div class="w-full lg:w-2/5 flex flex-col mb-6 lg:mb-0">
-          <p class="text-sm lg:text-lg">
+        <div class="w-full lg:w-2/5 flex flex-col mb-6 lg:mb-0 text-sm lg:text-lg">
+          <p>
             {{ $t("mainPage.about.content.first") }}
           </p><br>
-          <p class="text-sm lg:text-lg">
+          <p>
             {{ $t("mainPage.about.content.second") }}
           </p><br>
-          <p class="text-sm lg:text-lg">
+          <p>
             {{ $t("mainPage.about.content.third") }}
           </p><br>
-          <p class="text-sm lg:text-lg">
+          <p>
             {{ $t("mainPage.about.content.fourth") }}
           </p>
         </div>
@@ -113,7 +113,7 @@
             />
           </div>
         </div>
-        <div class="flex justify-between">
+        <div class="flex justify-between mb-12 lg:mb-0">
           <ul class="text-sm lg:text-xl font-semibold lg:w-[63%] w-[80%]">
             <li>{{ $t("mainPage.manufacture.first") }}</li>
             <li>{{ $t("mainPage.manufacture.second") }}</li>
@@ -126,7 +126,7 @@
           <!-- <img class="block lg:hidden w-[35%] object-contain" src="@/assets/img/about/bg.png" alt="" /> -->
         </div>
         <div
-            class="bg-[#E1E1E1] -mb-24 lg:mb-0 text-black w-[80%] mx-auto lg:mx-0 lg:w-half py-5 lg:py-6 px-5 lg:px-14 text-xs lg:text-base rounded-tl-lg rounded-br-lg lg:absolute right-0 -bottom-[38%]"
+            class="bg-[#E1E1E1] -mb-24 lg:mb-0 text-black w-[80%] mx-auto lg:mx-0 lg:w-half py-5 lg:py-6 px-5 lg:px-14 text-xs lg:text-base rounded-tl-3xl rounded-br-3xl lg:absolute right-0 -bottom-[38%]"
             style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
           <div class="flex items-center mb-6">
             <img class="mr-4" src="@/assets/img/about/arrow.png" alt="">

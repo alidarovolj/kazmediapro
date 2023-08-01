@@ -1,5 +1,5 @@
 <template>
-  <div class="footer pt-14 pb-20 text-white bg-mainColor dark:bg-darkerBg">
+  <div class="footer pt-14 pb-20 text-white bg-mainColor dark:bg-darkerBg font-bold lg:font-medium text-sm lg:text-base">
     <div class="container mx-auto px-4 lg:px-0">
       <div class="block lg:flex h-full justify-between">
         <div class="w-full lg:w-fourth mb-7 lg:mb-0">
@@ -39,15 +39,15 @@
               href="tel:+77068368746"
               class="flex hover:text-secondaryColor transition-all items-center mb-4 font-bold"
             >
-              <font-awesome-icon class="mr-3" :icon="['fas', 'phone']" />
-              <p>+7 706 836 87 46</p>
+              <p class="font-medium">{{ $t("mainPage.footer.phone.head") }}</p>
+              <p>&nbsp;+7 706 836 87 46</p>
             </a>
             <a
               href="mailto:info@kazmpro.kz"
               class="flex hover:text-secondaryColor transition-all items-center mb-4 lg:mb-0 font-bold"
             >
-              <font-awesome-icon class="mr-3" :icon="['fas', 'envelope']" />
-              <p>info@kazmpro.kz</p>
+              <p class="font-medium">Email:</p>
+              <p>&nbsp;info@kazmpro.kz</p>
             </a>
           </div>
           <div class="flex items-center">
@@ -57,7 +57,7 @@
               target="_blank"
               class="flex items-center bg-secondaryColor px-[1.625rem] py-[0.625rem]"
             >
-              <p class="mr-3">{{ $t("mainPage.footer.contacts.instagram") }}</p>
+              <p class="mr-3 text-xs">{{ $t("mainPage.footer.contacts.instagram") }}</p>
               <font-awesome-icon :icon="['fas', 'arrow-right']" />
             </a>
           </div>

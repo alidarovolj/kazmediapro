@@ -120,7 +120,7 @@
               </p>
               <div class="flex items-center px-4 py-3 bg-[#E1E1E1] text-black ">
                 <img class="mr-3" src="@/assets/img/team/button.svg" alt="" />
-                <p class="text-xs" v-html="$t('mainPage.team.button')"></p>
+                <p class="text-[0.625rem] lg:text-xs font-bold leading-none" v-html="$t('mainPage.team.button')"></p>
               </div>
             </div>
           </div>

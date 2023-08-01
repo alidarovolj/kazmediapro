@@ -17,8 +17,15 @@ const messages = {
             hero: {
                 line: "Всегда есть решение",
                 headText: "рекламно-производственная компания",
-                firstRow: "Соединяя креатив и идеи",
-                secondRow: "Мы создаем и производим яркую историю вашего бренда"
+                content: "Соединяя креатив и идеи, мы создаем и производим яркую историю вашего бренда",
+                whyUs: {
+                    header: "ПОЧЕМУ МЫ?",
+                    first: "Широкий спектр услуг",
+                    second: "Качество и скорость",
+                    third: "Высокий уровень сервиса",
+                    fourth: "Реклама под ключ",
+                    fifth: "Гарантия на работы",
+                },
             },
             about: {
                 header: "О НАС",
@@ -50,36 +57,28 @@ const messages = {
                     third: "Мы выстроили процессы, позволяющие с легкостью и вдохновением решать даже самые сложные задачи в кратчайшие сроки."
                 }
             },
-            whyUs: {
-                header: "ПОЧЕМУ МЫ?",
-                first: "Широкий спектр услуг",
-                second: "Качество работы",
-                third: "Ориентация под клиента",
-                fourth: "Реклама под ключ",
-                fifth: "Гарантия на работы",
-            },
             services: {
                 header: "УСЛУГИ",
                 list: {
                     first: {
-                        header: "ДИЗАЙН И РАЗРАБОТКА",
+                        header: "ДИЗАЙН & РАЗРАБОТКА",
                         content:
-                            "Разработка дизайна с нуля любой сложности, адаптация, файлы для печати, технические файлы к производству.",
+                            "Разработка дизайна с нуля любой сложности. Адаптация, файлы для печати, технические файлы к производству.",
                     },
                     second: {
                         header: "НАРУЖНАЯ РЕКЛАМА",
                         content:
-                            "Эффективная наружная реклама под ключ. Лайтбоксы, вывески, объемные буквы, неоновая реклама и прочее.",
+                            "Эффективная наружная реклама под ключ. Лайтбоксы, вывески, объемные буквы, крышные конструкции, неоновая реклама и прочее.",
                     },
                     third: {
                         header: "ВНУТРЕННЯЯ РЕКЛАМА",
                         content:
-                            "Все типы внутренней рекламы. Стенды, световые короба, светодиодные и цифровые экраны, мобайлы, муляжи и прочее.",
+                            "Все виды внутренней рекламы. Стенды, световые короба, светодиодные и цифровые экраны, мобайлы, муляжи и прочее.",
                     },
                     fourth: {
                         header: "POSM МАТЕРИАЛЫ",
                         content:
-                            "Привлекающие внимание и нестандартные pos-материалы. ОТС, навесные дисплеи, напольные дисплеи, шелфтокеры световые и прочее.",
+                            "Привлекающие внимание и нестандартные POS материалы. OTC, навесные дисплеи, напольные дисплеи, шелфтокеры световые, стопперы и прочее.",
                     },
                     fifth: {
                         header: "ТОРГОВОЕ ОБОРУДОВАНИЕ",
@@ -94,7 +93,7 @@ const messages = {
                     seventh: {
                         header: "КОММЕРЧЕСКАЯ МЕБЕЛЬ",
                         content:
-                            "Разработка дизайна с нуля, адаптация, файлы для печати, технические файлы к производству.",
+                            "Полная упаковка офиса. Индивидуальное изготовление коммерческой мебели и оформление пространства.",
                     },
                     eighth: {
                         header: "ПРОИЗВОДСТВО МЕБЕЛИ",
@@ -104,55 +103,61 @@ const messages = {
                     ninth: {
                         header: "АРЕНДА ОБОРУДОВАНИЯ",
                         content:
-                            "Разработка дизайна с нуля, адаптация, файлы для печати, технические файлы к производству.",
+                            "Аренда фото-зон, Pop Up стендов, Roll Up с заменой вижуалов и прочее.",
                     },
                 },
                 benefits: {
-                    first: "Высокий уровень сервиса",
-                    second: "Индивидуальный подход",
-                    third: "Логистика и монтаж по всему Казахстану",
+                    first: "Индивидуальный подход",
+                    second: "Логистика и монтаж по всему Казахстану",
+                    third: "Демонтаж и хранение оборудования",
                 },
             },
             touch: {
                 header: "НАШ ПОДХОД",
                 first: {
-                    header: "Разработаем дизайн и подготовим файлы",
+                    header: "Разработка",
                     content: {
-                        first: "технические файлы",
+                        first: "дизайн",
                         second: "файлы для печати",
+                        third: "технические файлы"
                     },
                 },
                 second: {
-                    header: "Инженер спроектирует",
+                    header: "Проектирование",
                     content: {
-                        first: "технические файлы",
-                        second: "файлы для печати",
+                        first: "технология",
+                        second: "спецификация",
+                        third: "конструктив"
                     },
                 },
                 third: {
-                    header: "Команда изготовит",
+                    header: "Производство и инсталляция",
                     content: {
-                        first: "технические файлы",
-                        second: "файлы для печати",
+                        first: "изготовление",
+                        second: "доставка",
+                        third: "монтаж"
                     },
                 },
+            },
+            cases: {
+                header: "кейсы"
             },
             team: {
                 header: "КОМАНДА",
                 first: {
                     name: "Юлия Склярова",
                     position: "Генеральный директор.",
-                    experience: "Опыт в управлении 6 лет.",
+                    experience: "Опыт в управлении 7 лет.",
                 },
                 second: {
                     name: "Александр Бычков",
-                    position: "Генеральный директор.",
-                    experience: "Опыт в управлении 6 лет.",
+                    position: "Учредитель компании.",
+                    experience: "Опыт в развитии бизнеса 24 года.",
                 },
                 third: {
                     name: "Артем Цымбал",
-                    position: "Генеральный директор.",
-                    experience: "Опыт в управлении 6 лет.",
+                    position: "Главный технолог.",
+                    experience: "Опыт в рекламе 14 лет.",
                 },
                 content: {
                     first:
@@ -160,8 +165,7 @@ const messages = {
                     second:
                         "Профессионализм специалистов на производстве помогает создавать качественные изделия и выдерживать сроки производства.",
                 },
-                button:
-                    "Общий штат специалистов на производстве <b>20 человек</b> с опытом работы от 5 лет и выше",
+                button: "Профессиональный штат специалистов на производстве с опытом работы  от 10 лет и выше",
             },
             contacts: {
                 header: "ДОВЕРЬТЕСЬ ПРОФЕССИОНАЛАМ!",
@@ -208,429 +212,422 @@ const messages = {
                     header: "КОНТАКТЫ",
                     instagram: "Мы в Instagram",
                 },
+                phone: {
+                    head: "Тел:"
+                }
             },
         },
     },
     en: {
         general: {
-            callRequest: "Submit your application",
+            callRequest: "Leave a request"
         },
         header: {
             links: {
                 about: "About Us",
                 services: "Services",
                 cases: "Cases",
-                contacts: "Contacts",
-            },
+                contacts: "Contacts"
+            }
         },
         mainPage: {
             hero: {
                 line: "There is always a solution",
                 headText: "advertising production company",
-                firstRow: "Соединяя креатив и идеи",
-                secondRow: "Мы создаем и производим яркую историю вашего бренда"
+                content: "By combining creativity and ideas, we create and produce a vibrant story for your brand",
+                whyUs: {
+                    header: "WHY CHOOSE US?",
+                    first: "Wide range of services",
+                    second: "Quality and speed",
+                    third: "High level of service",
+                    fourth: "Turnkey advertising solutions",
+                    fifth: "Work guarantee"
+                }
             },
             about: {
                 header: "ABOUT US",
                 content: {
-                    first: "Мы - рекламно-производственная компания.",
-                    second: "Предоставляем комплексные решения рекламно-производственных задач под ключ.",
-                    third: "Берем на себя и выполняем все обязательства по разработке проекта, дизайну, производству, логистике и монтажу рекламной продукции и торгового оборудования по всему Казахстану.",
-                    fourth: "Мы предоставляем полный спектр рекламных услуг любой сложности и масштаба.",
+                    first: "We are an advertising production company.",
+                    second: "We provide comprehensive solutions for advertising and production tasks.",
+                    third: "We take on and fulfill all obligations related to project development, design, production, logistics, and installation of advertising products and commercial equipment throughout Kazakhstan.",
+                    fourth: "We offer a full range of advertising services of any complexity and scale."
                 },
                 blocks: {
                     first: "Own production base",
-                    second: "Storage warehouses",
+                    second: "Storage facilities",
                     third: "High-tech equipment",
-                    fourth: "High level of service",
-                },
+                    fourth: "High level of service"
+                }
             },
             manufacture: {
-                header: "OUR PRODUCTION",
+                header: "OUR EQUIPMENT AND SERVICES",
                 first: "Milling and engraving machines",
                 second: "Laser engraving machines",
                 third: "UV printing",
-                fourth: "Large format printing 1440 dpi",
+                fourth: "Wide-format printing 1440 dpi",
                 fifth: "Equipment for working with wood and metal",
                 sixth: "Painting",
                 seventh: "Logistics, installation throughout Kazakhstan",
                 block: {
-                    first: "Собственный рекламно-производственный комплекс оснащен высокотехнологичным оборудованием.",
-                    second: "Нестандартный подход, передовые технологии и строгий менеджмент.",
-                    third: "Мы выстроили процессы, позволяющие с легкостью и вдохновением решать даже самые сложные задачи в кратчайшие сроки."
+                    first: "Our advertising production complex is equipped with high-tech equipment.",
+                    second: "We use innovative technologies and strict management.",
+                    third: "We have established processes that allow us to easily and creatively solve even the most complex tasks in the shortest possible time."
                 }
-            },
-            whyUs: {
-                header: "WHY WE?",
-                first: "Wide range of services",
-                second: "Качество работы",
-                third: "Quality of work",
-                fourth: "Turnkey advertising",
-                fifth: "Work guarantee",
             },
             services: {
                 header: "SERVICES",
                 list: {
                     first: {
-                        header: "DESIGN AND DEVELOPMENT",
-                        content:
-                            "Development of design from scratch of any complexity, adaptation, files for printing, technical files for production.",
+                        header: "DESIGN & DEVELOPMENT",
+                        content: "Development of designs of any complexity. Adaptation, files for printing, technical files for production."
                     },
                     second: {
                         header: "OUTDOOR ADVERTISING",
-                        content:
-                            "Effective turnkey outdoor advertising. Lightboxes, signs, volumetric letters, neon advertising and more.",
+                        content: "Effective outdoor advertising solutions. Lightboxes, signs, 3D letters, roof structures, neon signs, and more."
                     },
                     third: {
-                        header: "INTERNAL ADVERTISING",
-                        content:
-                            "All types of internal advertising. Stands, light boxes, LED and digital screens, mobiles, models and more.",
+                        header: "INDOOR ADVERTISING",
+                        content: "All types of indoor advertising. Stands, lightboxes, LED and digital screens, mobile stands, replicas, and more."
                     },
                     fourth: {
                         header: "POSM MATERIALS",
-                        content:
-                            "Attracting attention and non-standard pos-materials. OTS, hanging displays, floor displays, light shelftalkers and more.",
+                        content: "Eye-catching and unconventional POS materials. OTC, hanging displays, floor displays, illuminated shelf talkers, stoppers, and more."
                     },
                     fifth: {
-                        header: "RETAIL STORE EQUIPMENT",
-                        content:
-                            "Individual approach to commercial equipment. Brand zones, shop-in-shop, endcap, ends, wall modules, brand shop and more.",
+                        header: "COMMERCIAL EQUIPMENT",
+                        content: "Individual approach to commercial equipment. Brand zones, shop-in-shop, endcap, end units, wall modules, brand shop, and more."
                     },
                     sixth: {
                         header: "BRANDING",
-                        content:
-                            "Selection of a product of varying complexity. Category branding, retail space, product highlighting on the shelf, checkout area, entrance group, etc.",
+                        content: "Product differentiation of various complexity. Category branding, trade space branding, product differentiation on the shelf, checkout area, entrance group, and more."
                     },
                     seventh: {
                         header: "COMMERCIAL FURNITURE",
-                        content:
-                            "Design development from scratch, adaptation, files for printing, technical files for production.",
+                        content: "Full office setup. Custom commercial furniture production and space design."
                     },
                     eighth: {
-                        header: "FURNITURE MANUFACTURE",
-                        content:
-                            "Zone brand, stands of any complexity and scale. Branding and styling.",
+                        header: "FURNITURE PRODUCTION",
+                        content: "Brand zones, stands of any complexity and scale. Branding and styling according to the brand."
                     },
                     ninth: {
-                        header: "EQUIPMENT RENT",
-                        content:
-                            "Design development from scratch, adaptation, files for printing, technical files for production.",
-                    },
+                        header: "EQUIPMENT RENTAL",
+                        content: "Rent of photo zones, Pop Up stands, Roll Up with visual replacement, and more."
+                    }
                 },
                 benefits: {
-                    first: "High level of service",
-                    second: "Individual approach",
-                    third: "Logistics and installation throughout Kazakhstan",
-                },
+                    first: "Individual approach",
+                    second: "Logistics and installation throughout Kazakhstan",
+                    third: "Equipment dismantling and storage"
+                }
             },
             touch: {
                 header: "OUR APPROACH",
                 first: {
-                    header: "We will develop the design and prepare the files",
+                    header: "Design",
                     content: {
-                        first: "technical files",
-                        second: "printable files",
-                    },
+                        first: "design",
+                        second: "files for printing",
+                        third: "technical files"
+                    }
                 },
                 second: {
-                    header: "Engineer will design",
+                    header: "Engineering",
                     content: {
-                        first: "technical files",
-                        second: "printable files",
-                    },
+                        first: "technology",
+                        second: "specification",
+                        third: "construction"
+                    }
                 },
                 third: {
-                    header: "The team will make",
+                    header: "Production and installation",
                     content: {
-                        first: "technical files",
-                        second: "printable files",
-                    },
-                },
+                        first: "manufacturing",
+                        second: "delivery",
+                        third: "installation"
+                    }
+                }
+            },
+            cases: {
+                header: "Cases"
             },
             team: {
-                header: "TEAM",
+                header: "OUR TEAM",
                 first: {
-                    name: "Julia Sklyarova",
-                    position: "CEO.",
-                    experience: "6 years management experience.",
+                    name: "Yulia Sklyarova",
+                    position: "CEO",
+                    experience: "7 years of management experience."
                 },
                 second: {
                     name: "Alexander Bychkov",
-                    position: "CEO.",
-                    experience: "6 years management experience.",
+                    position: "Company Founder",
+                    experience: "24 years of business development experience."
                 },
                 third: {
                     name: "Artem Tsymbal",
-                    position: "CEO.",
-                    experience: "6 years management experience.",
+                    position: "Chief Technologist",
+                    experience: "14 years of experience in advertising."
                 },
                 content: {
-                    first:
-                        "A high level of management helps to make the right management decisions, develop new technologies and solve the problems of our clients.",
-                    second:
-                        "The professionalism of production specialists helps to create high-quality products and meet production deadlines.",
+                    first: "A high level of management helps us make the right managerial decisions, develop new technologies, and solve our clients' tasks.",
+                    second: "The professionalism of our production specialists helps create high-quality products and meet production deadlines."
                 },
-                button:
-                    "The total staff of specialists in the production of <b>20 people</b> with experience of 5 years and more",
+                button: "Professional team of specialists in production with 10+ years of experience"
             },
             contacts: {
-                header: "TRUST THE PROFESSIONALS!",
-                content:
-                    "We offer you a comprehensive approach to solving problems in the development and production of advertising products.",
+                header: "TRUST PROFESSIONALS!",
+                content: "We offer you a comprehensive approach to solving tasks in the field of development and production of advertising products.",
                 form: {
                     header: "Leave a request",
-                    content: "We will contact you shortly",
+                    content: "We will contact you shortly.",
                     direction: {
-                        header: "Direction*",
-                        placeholder: "POSM production",
-                        error: "Direction input is empty",
+                        header: "Subject*",
+                        placeholder: "POS Materials Production",
+                        error: "Subject field is required"
                     },
                     name: {
                         header: "Name*",
-                        placeholder: "Ivan Ivanov",
-                        error: "Name entry is not filled",
+                        placeholder: "John Doe",
+                        error: "Name field is required"
                     },
                     email: {
                         header: "Email*",
-                        placeholder: "i.ivanov@gmail.com",
-                        error: "Email input is empty",
+                        placeholder: "j.doe@gmail.com",
+                        error: "Email field is required"
                     },
                     phone: {
                         header: "Phone*",
-                        placeholder: "+7 (777) 777 77 77",
-                        error: "Phone input is empty",
+                        placeholder: "+1 (123) 456 7890",
+                        error: "Phone field is required"
                     },
                     note: {
-                        header: "Brief description of the task",
-                        placeholder: "Enter text",
-                        error: "",
+                        header: "Brief task description",
+                        placeholder: "Enter your message",
+                        error: ""
                     },
-                    button: "Send",
-                },
+                    button: "Send"
+                }
             },
             footer: {
                 address: {
                     header: "ADDRESS",
-                    city: "Almaty city",
-                    street: "417а/3 Raiymbek Ave.",
+                    city: "Almaty",
+                    street: "Raiymbeka Ave 417a/3"
                 },
                 contacts: {
                     header: "CONTACTS",
-                    instagram: "We are on Instagram",
+                    instagram: "Find us on Instagram"
                 },
-            },
-        },
+                phone: {
+                    head: "Phone:"
+                }
+            }
+        }
     },
     kz: {
         general: {
-            callRequest: "Өтінішіңізді жіберіңіз",
+            callRequest: "Өтініш қалдыру"
         },
         header: {
             links: {
                 about: "Біз туралы",
                 services: "Қызметтер",
-                cases: "Істер",
-                contacts: "Контактілер",
-            },
+                cases: "Құрылғылар",
+                contacts: "Байланыс"
+            }
         },
         mainPage: {
             hero: {
                 line: "Әрқашан шешім бар",
-                headText: "жарнамалық компания",
-                firstRow: "Соединяя креатив и идеи",
-                secondRow: "Мы создаем и производим яркую историю вашего бренда"
+                headText: "реклама-өндіру компаниясы",
+                content: "Креативті және идеяларды біріктіріп, сіздің брендіңіздің жарық тарихын жасайды және өндіреді",
+                whyUs: {
+                    header: "НЕ БІЗ?",
+                    first: "Ұсынылатын қызметтердің әрекетті тізімі",
+                    second: "Сапасы мен тездік",
+                    third: "Жоғары қызмет деңгейі",
+                    fourth: "Барлық рекламалық шешімдер",
+                    fifth: "Жұмыс бойынша кепілдік"
+                }
             },
             about: {
                 header: "БІЗ ТУРАЛЫ",
-                content:{
-                    first: "Мы - рекламно-производственная компания.",
-                    second: "Предоставляем комплексные решения рекламно-производственных задач под ключ.",
-                    third: "Берем на себя и выполняем все обязательства по разработке проекта, дизайну, производству, логистике и монтажу рекламной продукции и торгового оборудования по всему Казахстану.",
-                    fourth: "Мы предоставляем полный спектр рекламных услуг любой сложности и масштаба.",
+                content: {
+                    first: "Біз реклама-өндіру компаниясымыз.",
+                    second: "Реклама және өндіру мәселелерін толық шешуді ұсынамыз.",
+                    third: "Қазақстан бойынша рекламалық өндірістік мәселелердің барлығына жауап аламыз және оларды орындау үшін кешенді, дизайн, өндіру, логистика және ұстау жұмыстарын аламыз.",
+                    fourth: "Біз кең салалы және өлшеміне тиісті рекламалық қызметтерді ұсынамыз."
                 },
                 blocks: {
-                    first: "Жеке өндірістік базасы",
+                    first: "Өз өндіру базамыз",
                     second: "Сақтау қоймалары",
-                    third: "Жоғары технологиялық жабдық",
-                    fourth: "Қызмет көрсетудің жоғары деңгейі",
-                },
-            },
-            manufacture: {
-                header: "БІЗДІҢ ӨНДІРІС",
-                first: "Фрезерлік және гравировка станоктары",
-                second: "Лазерлік ою машиналары",
-                third: "УК басып шығару",
-                fourth: "Үлкен форматты басып шығару 1440 dpi",
-                fifth: "Ағашпен және металлмен жұмыс істеуге арналған жабдықтар",
-                sixth: "Кескіндеме",
-                seventh: "Логистика, Қазақстан бойынша монтаждау",
-                block: {
-                    first: "Собственный рекламно-производственный комплекс оснащен высокотехнологичным оборудованием.",
-                    second: "Нестандартный подход, передовые технологии и строгий менеджмент.",
-                    third: "Мы выстроили процессы, позволяющие с легкостью и вдохновением решать даже самые сложные задачи в кратчайшие сроки."
+                    third: "Көтерімді техника",
+                    fourth: "Жоғары қызмет деңгейі"
                 }
             },
-            whyUs: {
-                header: "НЕГЕ БІЗ?",
-                first: "Қызметтердің кең спектрі",
-                second: "Жұмыс сапасы",
-                third: "Тұтынушыға бағдарлану",
-                fourth: "Жарнамаға кілт тапсыру",
-                fifth: "Жұмысқа кепілдік",
+            manufacture: {
+                header: "БІЗДІҢ ТЕХНИКА ЖӘНЕ ҚЫЗМЕТТЕРІМІЗ",
+                first: "Фрезерлеу және ойындау машиналары",
+                second: "Лазерлі ойындау машиналары",
+                third: "UV басу",
+                fourth: "Жоғары саптамалы басу 1440 dpi",
+                fifth: "дерево және металлмен жұмыс жасау үшін техника",
+                sixth: "Бояу",
+                seventh: "Логистика, қазақстан бойынша орнату",
+                block: {
+                    first: "Біздің реклама-өндіру комплексіміз жоғары технологиялық құрылғалармен жабдықталған.",
+                    second: "Біз жаңа технологияларды қолданамыз және кеңесші меңгеру.",
+                    third: "Біз жеңіл уақыт ішінде ең кең түрде да жаңа, креативті міндеттерді шешу мүмкіндігін табу үшін процестерді құрдық."
+                }
             },
             services: {
                 header: "ҚЫЗМЕТТЕР",
                 list: {
                     first: {
-                        header: "ӘРЛЕМ МЕН ДАМЫТУ",
-                        content:
-                            "Кез келген күрделіліктегі дизайнды нөлден әзірлеу, бейімдеу, басып шығаруға арналған файлдар, өндіріске арналған техникалық файлдар.",
+                        header: "ДИЗАЙН & ДАМЫТУ",
+                        content: "Қиындықты барлық дизайны дамыту. Адаптация, басу үшін файлдар, өндіру үшін техникалық файлдар."
                     },
                     second: {
-                        header: "СЫРТҚЫ ЖАРНАМА",
-                        content:
-                            "Тиімді сыртқы жарнаманы кілтке тапсыру. Лайтбокстар, белгілер, көлемді әріптер, неондық жарнама және т.б.",
+                        header: "СЫРТТЫ РЕКЛАМА",
+                        content: "Эффективті сыртты реклама шешімдері. Жарықты тақталар, тақырыптар, 3D әріптер, шатты арнайы жабдықтар, неон реклама және тағы басқа."
                     },
                     third: {
-                        header: "ІШКІ ЖАРНАМА",
-                        content:
-                            "Ішкі жарнаманың барлық түрлері. Стендтер, жарықтандырғыштар, LED және сандық экрандар, ұялы телефондар, модельдер және т.б.",
+                        header: "ІШКІ РЕКЛАМА",
+                        content: "Ішкі рекламаның барлық түрлері. Тақталар, жарықты тақталар, LED және цифровые экрандар, мобайлар, жасырылған жабдықтар және тағы басқа."
                     },
                     fourth: {
                         header: "POSM МАТЕРИАЛДАР",
-                        content:
-                            "Назар аудару және стандартты емес pos-материалдар. OTS, ілулі дисплейлер, едендік дисплейлер, жеңіл сөрешілер және т.б.",
+                        content: "Назар аударатын және жолдамалы POS материалдар. OTC, аспапты көрсеткіштер, жердегі көрсеткіштер, жарықты шелфтокерлер, стопперлер және тағы басқа."
                     },
                     fifth: {
-                        header: "САУДА ЖАБДЫҒЫ",
-                        content:
-                            "Коммерциялық жабдыққа жеке көзқарас. Бренд аймақтары, дүкендегі дүкен, қақпақ, ұштар, қабырға модульдері, бренд дүкені және т.б.",
+                        header: "САТУ ЖҮЙЕСІ",
+                        content: "Сату жүйесіне жеке түсініктеме. Бренд зоналары, shop-in-shop, endcap, тақырыптар, дейінді модульдер, бренд магазин және тағы басқа."
                     },
                     sixth: {
-                        header: "БРЕНДИНГ",
-                        content:
-                            "Әртүрлі күрделіліктегі өнімді таңдау. Санат бренді, сауда алаңы, сөредегі өнімді бөлектеу, касса аймағы, кіру тобы және т.б.",
+                        header: "БРЕНДТІКТЕУ",
+                        content: "Көліктің кездесетіндігін қолдану. Санатты брендтеу, сауда жерінің брендтеуі, көліктің кездесетіндігін белгілеу, төлем жері, кірістің топтары және тағы басқа."
                     },
                     seventh: {
-                        header: "КОММЕРЦИЯЛЫҚ ЖИБАЗ",
-                        content:
-                            "Дизайнды нөлден әзірлеу, бейімдеу, басып шығаруға арналған файлдар, өндіріске арналған техникалық файлдар.",
+                        header: "САУДАЛЫ МЕБЕЛЬ",
+                        content: "Офистің толық тиімді орнатуы. Жеке сауда мебелін жасау және мекенжайын дизайндау."
                     },
                     eighth: {
-                        header: "ЖИБАЗ ӨНДІРУ",
-                        content:
-                            "Аймақ бренді, кез келген күрделілік пен масштабтағы стендтер. Брендинг және сәндеу.",
+                        header: "МЕБЕЛЬ ӨНДІРУ",
+                        content: "Бренд зоналары, барлық дәрежеде және өлшеміне арналған тақталар. Брендтіктеу және стилізациялау."
                     },
                     ninth: {
-                        header: "ЖАБДЫҚТЫ ЖАЛДАУ",
-                        content:
-                            "Дизайнды нөлден әзірлеу, бейімдеу, басып шығаруға арналған файлдар, өндіріске арналған техникалық файлдар.",
-                    },
+                        header: "ТЕХНИКА АРНАШУ",
+                        content: "Фото зоналарды, Pop Up тақталарды, Roll Up жабдықтарды орнатумен жалғастыру."
+                    }
                 },
                 benefits: {
-                    first: "Қызмет көрсетудің жоғары деңгейі",
-                    second: "Жеке көзқарас",
-                    third: "Қазақстан бойынша логистика және орнату",
-                },
+                    first: "Жеке түсініктеме",
+                    second: "Қазақстан бойынша логистика және орнату",
+                    third: "Техникалық арнайылау және сақтау"
+                }
             },
             touch: {
-                header: "БІЗДІҢ ТӘСІЛДЕРІМІЗ",
+                header: "БІЗДІҢ ТӨРЕМІЗ",
                 first: {
-                    header: "Біз дизайнды әзірлеп, файлдарды дайындаймыз",
+                    header: "Дамыту",
                     content: {
-                        first: "техникалық файлдар",
-                        second: "басып шығарылатын файлдар",
-                    },
+                        first: "дизайн",
+                        second: "басу үшін файлдар",
+                        third: "техникалық файлдар"
+                    }
                 },
                 second: {
-                    header: "Инженер спроектирует",
+                    header: "Дизайн",
                     content: {
-                        first: "техникалық файлдар",
-                        second: "басып шығарылатын файлдар",
-                    },
+                        first: "технология",
+                        second: "спецификация",
+                        third: "конструктив"
+                    }
                 },
                 third: {
-                    header: "Команда изготовит",
+                    header: "Өндіру және орнату",
                     content: {
-                        first: "техникалық файлдар",
-                        second: "басып шығарылатын файлдар",
-                    },
-                },
+                        first: "өндіріс",
+                        second: "жеткізу",
+                        third: "орнату"
+                    }
+                }
+            },
+            cases: {
+                header: "ҚҰРЫЛҒЫЛАР"
             },
             team: {
-                header: "КОМАНДА",
+                header: "БІЗДІҢ КОМАНДАМЫЗ",
                 first: {
                     name: "Юлия Склярова",
-                    position: "БАС АТҚАРУШЫ ДИРЕКТОР.",
-                    experience: "6 жыл басқару тәжірибесі.",
+                    position: "Бас директор.",
+                    experience: "Менеджментте 7 жыл."
                 },
                 second: {
                     name: "Александр Бычков",
-                    position: "БАС АТҚАРУШЫ ДИРЕКТОР.",
-                    experience: "6 жыл басқару тәжірибесі.",
+                    position: "Компанияның қалыптығы.",
+                    experience: "Бизнесді дамыту 24 жыл."
                 },
                 third: {
                     name: "Артем Цымбал",
-                    position: "БАС АТҚАРУШЫ ДИРЕКТОР.",
-                    experience: "6 жыл басқару тәжірибесі.",
+                    position: "Бас технолог.",
+                    experience: "Рекламада 14 жыл."
                 },
                 content: {
-                    first:
-                        "Менеджменттің жоғары деңгейі дұрыс басқару шешімдерін қабылдауға, жаңа технологияларды дамытуға және клиенттеріміздің мәселелерін шешуге көмектеседі.",
-                    second:
-                        "Өндіріс мамандарының кәсібилігі жоғары сапалы өнім жасауға және өндіріс мерзімін орындауға көмектеседі.",
+                    first: "Жоғары деңгейдегі менеджмент мүмкіндіктерді ұсыну, жаңа технологияларды дамыту және клиенттеріміздің міндеттерін шешу арқылы көмектеседі.",
+                    second: "Өндіру көмекшілеріміздің профессионализмі жоғары сапалы өнім жасауға және өндіру уақытын сақтауға көмектеседі."
                 },
-                button:
-                    "Өндірістегі мамандардың жалпы саны<b>20 адам</b>5 жыл және одан да көп жұмыс тәжірибесі бар",
+                button: "Өнімдеу жүйесінде 10+ жыл жұмыс төмендетілген профессионалдардың ұйымы"
             },
             contacts: {
-                header: "Кәсіби мамандарға сеніңіз!",
-                content:
-                    "Біз сізге жарнамалық өнімдерді әзірлеу мен өндірудегі мәселелерді шешудің кешенді тәсілін ұсынамыз.",
+                header: "МЫНАЙТЫНДЫЛАРҒА СЕЙІН",
+                content: "Біз сізге рекламалық өнімдерді жобалау мен жасау алаңында жұмыс жасайтын бірдей қамтамасыз қызмет көрсетеміз.",
                 form: {
                     header: "Өтініш қалдырыңыз",
-                    content: "Біз сізге жақын арада хабарласамыз",
+                    content: "Біз сізбен жақын арада байланыс ала аламыз",
                     direction: {
                         header: "Бағыт*",
-                        placeholder: "POSM өндірісі",
-                        error: "Бағыт енгізуі бос",
+                        placeholder: "ПОСМ өнімі",
+                        error: "Бағытты енгізу жоқ"
                     },
                     name: {
                         header: "Аты*",
                         placeholder: "Иван Иванов",
-                        error: "Аты-жөні толтырылмаған",
+                        error: "Атын енгізу жоқ"
                     },
                     email: {
                         header: "Email*",
                         placeholder: "i.ivanov@gmail.com",
-                        error: "Электрондық пошта кірісі бос",
+                        error: "Email енгізу жоқ"
                     },
                     phone: {
                         header: "Телефон*",
                         placeholder: "+7 (777) 777 77 77",
-                        error: "Телефон кірісі бос",
+                        error: "Телефон нөмірін енгізу жоқ"
                     },
                     note: {
-                        header: "Тапсырманың қысқаша сипаттамасы",
+                        header: "Міндеттеме туралы қысқаша сипаттама",
                         placeholder: "Мәтінді енгізіңіз",
-                        error: "",
+                        error: ""
                     },
-                    button: "Жіберу",
-                },
+                    button: "Жіберу"
+                }
             },
             footer: {
                 address: {
-                    header: "АДРЕС",
+                    header: "МЕКЕНЖАЙ",
                     city: "Алматы қаласы",
-                    street: "Райымбек даңғылы 417а/3.",
+                    street: "Райымбек көшесі 417а/3"
                 },
                 contacts: {
-                    header: "БАЙЛАНЫСТАР",
-                    instagram: "Біз Instagram желісіндеміз",
+                    header: "БАЙЛАНЫС",
+                    instagram: "Instagram-да біз"
                 },
-            },
-        },
-    },
+                phone: {
+                    head: "Тел:"
+                }
+            }
+        }
+    }
 };
 
 export default createI18n({
