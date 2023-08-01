@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-10 pb-10 lg:pb-[15.625rem]">
+  <div class="pt-10 pb-10 lg:pb-[15.625rem] dark:text-white">
     <div v-if="hrefURL && getCategory" class="container mx-auto px-4 lg:px-0">
       <a :href='hrefURL'>
         <font-awesome-icon class="mr-1" :icon="['fas', 'arrow-left']"/>
@@ -9,7 +9,7 @@
       </a>
       <div class="w-full lg:w-4/5 mx-auto">
         <h1
-            class="text-center font-bold text-[2rem] mb-1 lg:mb-0 lg:text-[4rem]"
+            class="text-center font-bold text-[2rem] mb-1 lg:mb-0 lg:text-[4rem] dark:text-secondaryColor"
         >
           {{ getCategory.data.name }}
         </h1>

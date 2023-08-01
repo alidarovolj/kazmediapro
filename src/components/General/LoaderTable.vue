@@ -6,7 +6,7 @@
       <div></div>
       <div></div>
     </div>
-    <p class="font-bold">Пожалуйста, подождите...</p>
+    <p class="font-bold dark:text-white">Пожалуйста, подождите...</p>
   </div>
 </template>
 

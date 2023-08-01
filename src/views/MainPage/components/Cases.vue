@@ -16,7 +16,7 @@
         <div class="mb-0" :class="{ ' mb-8 lg:!mb-16' : getCategoryCases.data.length != index + 1 }"
              v-for="(item, index) of getCategoryCases.data" :key="index">
           <p
-              class="w-4/5 mx-auto text-xl lg:text-[2.75rem] mb-2 lg:mb-6 font-bold uppercase"
+              class="w-4/5 mx-auto text-xl lg:text-[2.75rem] mb-2 lg:mb-6 font-bold uppercase dark:text-white"
               :class="{ 'text-right': index % 2 == 1 }"
           >
             {{ item.name }}

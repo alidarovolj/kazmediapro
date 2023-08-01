@@ -30,17 +30,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   01
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.first.header") }}
                 </p>
@@ -50,17 +50,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   02
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.second.header") }}
                 </p>
@@ -70,17 +70,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   03
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.third.header") }}
                 </p>
@@ -90,17 +90,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   04
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.fourth.header") }}
                 </p>
@@ -110,17 +110,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   05
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.fifth.header") }}
                 </p>
@@ -130,17 +130,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   06
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.sixth.header") }}
                 </p>
@@ -150,17 +150,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   07
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.seventh.header") }}
                 </p>
@@ -170,17 +170,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   08
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.eighth.header") }}
                 </p>
@@ -190,17 +190,17 @@
             <div class="w-full lg:w-third flex relative pt-7">
               <div class="w-max relative mr-4">
                 <p
-                    class="bg-mainColor text-xl lg:text-[1.75rem] font-bold text-secondaryColor p-1 w-max"
+                    class="bg-mainColor text-xl lg:text-[1.75rem] dark:bg-secondaryColor dark:text-mainColor font-bold text-secondaryColor p-1 w-max"
                 >
                   09
                 </p>
                 <div
-                    class="w-[1px] h-full left-1/2 -translate-x-1/2 bg-mainColor -top-[1.125rem] absolute"
+                    class="w-[1px] h-full left-1/2 -translate-x-1/2 dark:bg-secondaryColor dark:text-mainColor bg-mainColor -top-[1.125rem] absolute"
                 ></div>
               </div>
               <div class="w-auto flex flex-col">
                 <p
-                    class="text-mainColor text-base lg:text-xl uppercase font-bold mb-2 w-1/2 lg:w-3/4"
+                    class="text-mainColor text-base lg:text-xl dark:text-secondaryColor uppercase font-bold mb-2 w-1/2 lg:w-3/4"
                 >
                   {{ $t("mainPage.services.list.ninth.header") }}
                 </p>

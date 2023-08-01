@@ -7,8 +7,8 @@ export default {
       colors: {
         mainColor: "#0B2A4A",
         secondaryColor: "#F18A02",
-        darkBg: "#181635",
-        darkerBg: "#0B0C21",
+        darkBg: "#15151a",
+        darkerBg: "#1a1a24",
       },
       width: {
         half: "49%",
