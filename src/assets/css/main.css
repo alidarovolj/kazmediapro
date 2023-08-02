@@ -19,7 +19,7 @@ body {
 }
 
 select,
-input {
+input, textarea {
     -webkit-appearance: none;
     border-radius: 0%;
 }
@@ -178,6 +178,10 @@ section:is(.dark .dark\:bg-darkerBg) {
     margin-bottom: 0.875rem;
     display: flex;
     align-items: center;
+}
+
+.manufacturing ul li:nth-last-child(1) {
+    margin-bottom: 0;
 }
 
 .footer {

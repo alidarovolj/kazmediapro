@@ -46,7 +46,7 @@
                   </p>
                 </div>
                 <div class="flex justify-end">
-                  <ul class="mr-0 ml-0 list-disc text-[0.625rem] w-3/4 pl-[0.938rem] lg:pl-9">
+                  <ul class="mr-0 ml-0 list-disc text-xs w-3/4 pl-[0.938rem] lg:pl-9">
                     <li>
                       {{ $t("mainPage.touch.first.content.first") }}
                     </li>
@@ -80,7 +80,7 @@
                   </p>
                 </div>
                 <div class="flex justify-end">
-                  <ul class="mr-0 ml-0 list-disc text-[0.625rem] w-3/4 pl-[0.938rem] lg:pl-9">
+                  <ul class="mr-0 ml-0 list-disc text-xs w-3/4 pl-[0.938rem] lg:pl-9">
                     <li>
                       {{ $t("mainPage.touch.second.content.first") }}
                     </li>
@@ -105,7 +105,7 @@
               <div class="-mt-10">
                 <div class="flex items-end">
                   <p
-                    class="mr-[0.313rem] lg:mr-4 text-7xl lg:text-9xl w-max text-white font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
+                    class="mr-[0.313rem] mb-4 lg:mb-0 lg:mr-4 text-7xl lg:text-9xl w-max text-white font-bold mt-2 lg:mt-0 lg:leading-[0.8]"
                   >
                     3
                   </p>
@@ -114,7 +114,7 @@
                   </p>
                 </div>
                 <div class="flex justify-end">
-                  <ul class="mr-0 ml-0 list-disc text-[0.625rem] w-3/4 pl-[0.938rem] lg:pl-0">
+                  <ul class="mr-0 ml-0 list-disc text-xs w-3/4 pl-[0.938rem] lg:pl-0">
                     <li>
                       {{ $t("mainPage.touch.third.content.first") }}
                     </li>

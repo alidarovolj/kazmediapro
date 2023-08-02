@@ -36,16 +36,16 @@
                   <p class="text-black font-bold mb-2">
                     {{ $t("mainPage.team.first.name") }}
                   </p>
-                  <p class="text-[0.625rem] text-black">
+                  <p class="text-xs text-black">
                     {{ $t("mainPage.team.first.position") }}
                   </p>
-                  <p class="text-[0.625rem] text-black">
+                  <p class="text-xs text-black">
                     {{ $t("mainPage.team.first.experience") }}
                   </p>
                 </div>
               </div>
               <div
-                class="w-[4rem] lg:w-[6.563rem] bg-white h-[4rem] lg:h-[6.563rem] z-10 absolute -left-1 -top-1"
+                class="w-[4rem] lg:w-[6.563rem] bg-secondaryColor h-[4rem] lg:h-[6.563rem] z-10 absolute -left-1 -top-1"
               ></div>
             </div>
             <div class="w-full mb-3 lg:mb-2 lg:w-third relative">
@@ -62,16 +62,16 @@
                   <p class="text-black font-bold mb-2">
                     {{ $t("mainPage.team.second.name") }}
                   </p>
-                  <p class="text-[0.625rem] text-black">
+                  <p class="text-xs text-black">
                     {{ $t("mainPage.team.second.position") }}
                   </p>
-                  <p class="text-[0.625rem] text-black">
+                  <p class="text-xs text-black">
                     {{ $t("mainPage.team.second.experience") }}
                   </p>
                 </div>
               </div>
               <div
-                class="w-[4rem] lg:w-[6.563rem] bg-white h-[4rem] lg:h-[6.563rem] z-10 absolute -left-1 -top-1"
+                class="w-[4rem] lg:w-[6.563rem] bg-secondaryColor h-[4rem] lg:h-[6.563rem] z-10 absolute -left-1 -top-1"
               ></div>
             </div>
             <div class="w-full lg:w-third relative">
@@ -88,16 +88,16 @@
                   <p class="text-black font-bold mb-2">
                     {{ $t("mainPage.team.third.name") }}
                   </p>
-                  <p class="text-[0.625rem] text-black">
+                  <p class="text-xs text-black">
                     {{ $t("mainPage.team.third.position") }}
                   </p>
-                  <p class="text-[0.625rem] text-black">
+                  <p class="text-xs text-black">
                     {{ $t("mainPage.team.third.experience") }}
                   </p>
                 </div>
               </div>
               <div
-                class="w-[4rem] lg:w-[6.563rem] bg-white h-[4rem] lg:h-[6.563rem] z-10 absolute -left-1 -top-1"
+                class="w-[4rem] lg:w-[6.563rem] bg-secondaryColor h-[4rem] lg:h-[6.563rem] z-10 absolute -left-1 -top-1"
               ></div>
             </div>
           </div>
@@ -110,7 +110,7 @@
               alt=""
             />
             <div
-              class="flex flex-col justify-between w-full text-sm lg:text-base h-full relative z-10"
+              class="flex flex-col justify-between w-full text-base h-full relative z-10"
             >
               <p class="leading-6 mb-3 lg:mb-0">
                 {{ $t("mainPage.team.content.first") }}
@@ -120,7 +120,7 @@
               </p>
               <div class="flex items-center px-4 py-3 bg-[#E1E1E1] text-black ">
                 <img class="mr-3" src="@/assets/img/team/button.svg" alt="" />
-                <p class="text-[0.625rem] lg:text-xs font-bold leading-none" v-html="$t('mainPage.team.button')"></p>
+                <p class="text-sm font-bold leading-none" v-html="$t('mainPage.team.button')"></p>
               </div>
             </div>
           </div>

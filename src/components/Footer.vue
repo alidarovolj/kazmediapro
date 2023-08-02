@@ -1,5 +1,5 @@
 <template>
-  <div class="footer pt-14 pb-20 text-white bg-mainColor dark:bg-darkerBg font-bold lg:font-medium text-sm lg:text-base">
+  <div ref="contacts" id="contacts" class="footer pt-14 pb-20 text-white bg-mainColor dark:bg-darkerBg font-bold lg:font-medium text-sm lg:text-base">
     <div class="container mx-auto px-4 lg:px-0">
       <div class="block lg:flex h-full justify-between">
         <div class="w-full lg:w-fourth mb-7 lg:mb-0">

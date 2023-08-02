@@ -12,11 +12,11 @@
         {{ $t("mainPage.contacts.form.content") }}
       </p>
       <div class="mb-2">
-        <label class="block mb-1 text-white text-xs pl-3" for="">{{
+        <label class="block mb-1 text-white text-sm pl-3" for="">{{
           $t("mainPage.contacts.form.direction.header")
         }}</label>
         <input
-          class="text-xs lg:text-base py-2 px-3 w-full"
+          class="text-sm lg:text-base py-2 px-3 w-full text-black"
           :class="{
             'border border-red-500': v$.form.direction.$errors.length,
           }"
@@ -32,11 +32,11 @@
         </p>
       </div>
       <div class="mb-2">
-        <label class="block mb-1 text-white text-xs pl-3" for="">
+        <label class="block mb-1 text-white text-sm pl-3" for="">
           {{ $t("mainPage.contacts.form.name.header") }}</label
         >
         <input
-          class="text-xs lg:text-base py-2 px-3 w-full"
+          class="text-sm lg:text-base py-2 px-3 w-full text-black"
           :class="{
             'border border-red-500': v$.form.name.$errors.length,
           }"
@@ -52,11 +52,11 @@
         </p>
       </div>
       <div class="mb-2">
-        <label class="block mb-1 text-white text-xs pl-3" for="">{{
+        <label class="block mb-1 text-white text-sm pl-3" for="">{{
           $t("mainPage.contacts.form.email.header")
         }}</label>
         <input
-          class="text-xs lg:text-base py-2 px-3 w-full"
+          class="text-sm lg:text-base py-2 px-3 w-full text-black"
           :class="{
             'border border-red-500': v$.form.email.$errors.length,
           }"
@@ -72,11 +72,11 @@
         </p>
       </div>
       <div class="mb-2">
-        <label class="block mb-1 text-white text-xs pl-3" for="">{{
+        <label class="block mb-1 text-white text-sm pl-3" for="">{{
           $t("mainPage.contacts.form.phone.header")
         }}</label>
         <input
-          class="text-xs lg:text-base py-2 px-3 w-full"
+          class="text-sm lg:text-base py-2 px-3 w-full text-black"
           :class="{
             'border border-red-500': v$.form.phone.$errors.length,
           }"
@@ -93,11 +93,11 @@
         </p>
       </div>
       <div class="mb-5">
-        <label class="block mb-1 text-white text-xs pl-3" for="">{{
+        <label class="block mb-1 text-white text-sm pl-3" for="">{{
           $t("mainPage.contacts.form.note.header")
         }}</label>
         <textarea
-          class="text-xs lg:text-base py-2 px-3 w-full"
+          class="text-sm lg:text-base py-2 px-3 w-full text-black"
           v-model="form.note"
           :placeholder="$t('mainPage.contacts.form.note.placeholder')"
         />

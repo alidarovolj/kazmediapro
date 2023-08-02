@@ -27,7 +27,7 @@
                     alt=""
                 />
                 <p
-                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
+                    class="text-xs w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.first") }}
                 </p>
@@ -36,12 +36,12 @@
             <div class="w-half min-w-half mb-3">
               <div class="py-6 px-4 bg-mainColor h-full">
                 <img
-                    class="w-20 h-14 mx-auto mb-5"
+                    class="w-16 lg:w-20 h-14 mx-auto mb-5"
                     src="@/assets/img/about/2.svg"
                     alt=""
                 />
                 <p
-                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
+                    class="text-xs w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.second") }}
                 </p>
@@ -57,7 +57,7 @@
                     alt=""
                 />
                 <p
-                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
+                    class="text-xs w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.third") }}
                 </p>
@@ -66,12 +66,12 @@
             <div class="w-half min-w-half mb-3">
               <div class="py-6 px-4 bg-mainColor h-full">
                 <img
-                    class=" w-24 h-14 mx-auto mb-5"
+                    class="w-20 lg:w-24 h-14 mx-auto mb-5"
                     src="@/assets/img/about/4.svg"
                     alt=""
                 />
                 <p
-                    class="text-[10px] w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
+                    class="text-xs w-[90%] lg:w-[75%] mx-auto lg:text-sm text-center text-white"
                 >
                   {{ $t("mainPage.about.blocks.fourth") }}
                 </p>
@@ -107,7 +107,7 @@
                 line="left"
             />
             <Heading
-                class="mb-6 lg:mb-[4.5rem] flex lg:hidden justify-end"
+                class="mb-12 lg:mb-[4.5rem] flex lg:hidden justify-end"
                 :heading="$t('mainPage.manufacture.header')"
                 line="left"
             />
@@ -126,7 +126,7 @@
           <!-- <img class="block lg:hidden w-[35%] object-contain" src="@/assets/img/about/bg.png" alt="" /> -->
         </div>
         <div
-            class="bg-[#E1E1E1] -mb-24 lg:mb-0 text-black w-[80%] mx-auto lg:mx-0 lg:w-half py-5 lg:py-6 px-5 lg:px-14 text-xs lg:text-base rounded-tl-3xl rounded-br-3xl lg:absolute right-0 -bottom-[38%]"
+            class="bg-[#E1E1E1] -mb-24 lg:mb-0 text-black w-[85%] mx-auto lg:mx-0 lg:w-half py-5 lg:py-6 px-5 lg:px-14 text-sm lg:text-base rounded-tl-3xl rounded-br-3xl lg:absolute right-0 -bottom-[38%]"
             style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
           <div class="flex items-center mb-6">
             <img class="mr-4" src="@/assets/img/about/arrow.png" alt="">

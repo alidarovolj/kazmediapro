@@ -44,7 +44,7 @@
                 >
                   {{ $t("mainPage.services.list.first.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.first.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.first.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -64,7 +64,7 @@
                 >
                   {{ $t("mainPage.services.list.second.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.second.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.second.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -84,7 +84,7 @@
                 >
                   {{ $t("mainPage.services.list.third.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.third.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.third.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -104,7 +104,7 @@
                 >
                   {{ $t("mainPage.services.list.fourth.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.fourth.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.fourth.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -124,7 +124,7 @@
                 >
                   {{ $t("mainPage.services.list.fifth.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.fifth.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.fifth.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -144,7 +144,7 @@
                 >
                   {{ $t("mainPage.services.list.sixth.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.sixth.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.sixth.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -164,7 +164,7 @@
                 >
                   {{ $t("mainPage.services.list.seventh.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.seventh.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.seventh.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -184,7 +184,7 @@
                 >
                   {{ $t("mainPage.services.list.eighth.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.eighth.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.eighth.content") }}</p>
               </div>
             </div>
             <div class="w-full lg:w-third flex relative pt-7">
@@ -204,7 +204,7 @@
                 >
                   {{ $t("mainPage.services.list.ninth.header") }}
                 </p>
-                <p class="text-[0.625rem] lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.ninth.content") }}</p>
+                <p class="text-xs lg:text-base w-[90%] lg:w-full">{{ $t("mainPage.services.list.ninth.content") }}</p>
               </div>
             </div>
           </div>
@@ -221,13 +221,13 @@
                 src="@/assets/img/services/1.svg"
                 alt=""
             />
-            <p class="text-[0.5rem] lg:text-xs text-white">
+            <p class="text-[0.625rem] lg:text-xs text-white">
               {{ $t("mainPage.services.benefits.first") }}
             </p>
           </div>
           <div
               style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-              class="mx-auto lg:mx-0 bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center lg:mx-6 w-[150px] max-w-[150px]"
+              class="mx-auto bg-mainColor mb-2 lg:mb-0 px-3 py-2 text-center flex flex-col justify-center lg:mx-6 w-[150px] max-w-[150px]"
           >
             <img
                 class="w-10 h-10 mx-auto mb-2"
@@ -247,7 +247,7 @@
                 src="@/assets/img/services/3.svg"
                 alt=""
             />
-            <p class="text-[0.5rem] lg:text-xs text-white">
+            <p class="text-[0.625rem] lg:text-xs text-white">
               {{ $t("mainPage.services.benefits.third") }}
             </p>
           </div>
@@ -266,7 +266,7 @@
                 src="@/assets/img/services/1.svg"
                 alt=""
             />
-            <p class="text-[0.5rem] lg:text-xs text-white">
+            <p class="text-[0.625rem] lg:text-xs text-white">
               {{ $t("mainPage.services.benefits.first") }}
             </p>
           </div>
@@ -279,7 +279,7 @@
                 src="@/assets/img/services/2.svg"
                 alt=""
             />
-            <p class="text-[0.5rem] lg:text-xs text-white">
+            <p class="text-[0.625rem] lg:text-xs text-white">
               {{ $t("mainPage.services.benefits.second") }}
             </p>
           </div>
@@ -292,7 +292,7 @@
                 src="@/assets/img/services/3.svg"
                 alt=""
             />
-            <p class="text-[0.5rem] lg:text-xs text-white">
+            <p class="text-[0.625rem] lg:text-xs text-white">
               {{ $t("mainPage.services.benefits.third") }}
             </p>
           </div>
